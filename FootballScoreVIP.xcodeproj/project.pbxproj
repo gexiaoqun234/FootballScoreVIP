@@ -7,25 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27CF9523D1E93891992F7CDB /* libPods-FootballScoreVIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3A0B49ED1E49AC352E3A43 /* libPods-FootballScoreVIP.a */; };
 		FF34E026204554F7003D0D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E025204554F7003D0D59 /* AppDelegate.m */; };
-		FF34E029204554F7003D0D59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E028204554F7003D0D59 /* ViewController.m */; };
-		FF34E02C204554F7003D0D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34E02A204554F7003D0D59 /* Main.storyboard */; };
 		FF34E02E204554F7003D0D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF34E02D204554F7003D0D59 /* Assets.xcassets */; };
 		FF34E031204554F7003D0D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34E02F204554F7003D0D59 /* LaunchScreen.storyboard */; };
 		FF34E034204554F7003D0D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E033204554F7003D0D59 /* main.m */; };
+		FF34E07C2045559B003D0D59 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E03E2045559B003D0D59 /* ScheduleViewController.m */; };
+		FF34E07D2045559B003D0D59 /* MyprofileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0462045559B003D0D59 /* MyprofileViewController.m */; };
+		FF34E07E2045559B003D0D59 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E04C2045559B003D0D59 /* DiscoveryViewController.m */; };
+		FF34E07F2045559B003D0D59 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0532045559B003D0D59 /* MainTabBarController.m */; };
+		FF34E0802045559B003D0D59 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0542045559B003D0D59 /* MainNavigationController.m */; };
+		FF34E0812045559B003D0D59 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0572045559B003D0D59 /* BaseViewController.m */; };
+		FF34E0822045559B003D0D59 /* RacesViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E05B2045559B003D0D59 /* RacesViewModel.m */; };
+		FF34E0832045559B003D0D59 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34E05F2045559B003D0D59 /* Storyboard.storyboard */; };
+		FF34E0842045559B003D0D59 /* RacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0602045559B003D0D59 /* RacesViewController.m */; };
+		FF34E0852045559B003D0D59 /* TWNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0622045559B003D0D59 /* TWNewsModel.m */; };
+		FF34E0862045559B003D0D59 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0692045559B003D0D59 /* UIImage+Image.m */; };
+		FF34E0872045559B003D0D59 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E06C2045559B003D0D59 /* UIView+Frame.m */; };
+		FF34E0882045559B003D0D59 /* UIViewController+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E06F2045559B003D0D59 /* UIViewController+Extention.m */; };
+		FF34E0892045559B003D0D59 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0732045559B003D0D59 /* NetworkManager.m */; };
+		FF34E08A2045559B003D0D59 /* ExternData.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0782045559B003D0D59 /* ExternData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3A0B49ED1E49AC352E3A43 /* libPods-FootballScoreVIP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FootballScoreVIP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7661238FA5E96F570CC44BBA /* Pods-FootballScoreVIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballScoreVIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-FootballScoreVIP/Pods-FootballScoreVIP.release.xcconfig"; sourceTree = "<group>"; };
+		D0BE71F49066E012855CD14D /* Pods-FootballScoreVIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballScoreVIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FootballScoreVIP/Pods-FootballScoreVIP.debug.xcconfig"; sourceTree = "<group>"; };
 		FF34E021204554F7003D0D59 /* FootballScoreVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballScoreVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF34E024204554F7003D0D59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF34E025204554F7003D0D59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF34E027204554F7003D0D59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF34E028204554F7003D0D59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FF34E02B204554F7003D0D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF34E02D204554F7003D0D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF34E030204554F7003D0D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF34E032204554F7003D0D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF34E033204554F7003D0D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF34E03E2045559B003D0D59 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		FF34E03F2045559B003D0D59 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		FF34E0452045559B003D0D59 /* MyprofileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyprofileViewController.h; sourceTree = "<group>"; };
+		FF34E0462045559B003D0D59 /* MyprofileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyprofileViewController.m; sourceTree = "<group>"; };
+		FF34E04C2045559B003D0D59 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		FF34E04D2045559B003D0D59 /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		FF34E0522045559B003D0D59 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		FF34E0532045559B003D0D59 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		FF34E0542045559B003D0D59 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		FF34E0552045559B003D0D59 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		FF34E0572045559B003D0D59 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FF34E0582045559B003D0D59 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FF34E05B2045559B003D0D59 /* RacesViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RacesViewModel.m; sourceTree = "<group>"; };
+		FF34E05C2045559B003D0D59 /* RacesViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RacesViewModel.h; sourceTree = "<group>"; };
+		FF34E05E2045559B003D0D59 /* RacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RacesViewController.h; sourceTree = "<group>"; };
+		FF34E05F2045559B003D0D59 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FF34E0602045559B003D0D59 /* RacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RacesViewController.m; sourceTree = "<group>"; };
+		FF34E0622045559B003D0D59 /* TWNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNewsModel.m; sourceTree = "<group>"; };
+		FF34E0632045559B003D0D59 /* TWNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNewsModel.h; sourceTree = "<group>"; };
+		FF34E0692045559B003D0D59 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		FF34E06A2045559B003D0D59 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		FF34E06C2045559B003D0D59 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		FF34E06D2045559B003D0D59 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		FF34E06F2045559B003D0D59 /* UIViewController+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extention.m"; sourceTree = "<group>"; };
+		FF34E0702045559B003D0D59 /* UIViewController+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extention.h"; sourceTree = "<group>"; };
+		FF34E0722045559B003D0D59 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		FF34E0732045559B003D0D59 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		FF34E0782045559B003D0D59 /* ExternData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternData.m; sourceTree = "<group>"; };
+		FF34E0792045559B003D0D59 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FF34E07A2045559B003D0D59 /* ExternData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternData.h; sourceTree = "<group>"; };
+		FF34E07B2045559B003D0D59 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +78,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CF9523D1E93891992F7CDB /* libPods-FootballScoreVIP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9B70AC7F0FE07FB8761F499 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE71F49066E012855CD14D /* Pods-FootballScoreVIP.debug.xcconfig */,
+				7661238FA5E96F570CC44BBA /* Pods-FootballScoreVIP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C07FF51A95D0C527E2E2FD5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3A0B49ED1E49AC352E3A43 /* libPods-FootballScoreVIP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF34E018204554F7003D0D59 = {
 			isa = PBXGroup;
 			children = (
 				FF34E023204554F7003D0D59 /* FootballScoreVIP */,
 				FF34E022204554F7003D0D59 /* Products */,
+				B9B70AC7F0FE07FB8761F499 /* Pods */,
+				C07FF51A95D0C527E2E2FD5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +125,323 @@
 			children = (
 				FF34E024204554F7003D0D59 /* AppDelegate.h */,
 				FF34E025204554F7003D0D59 /* AppDelegate.m */,
-				FF34E027204554F7003D0D59 /* ViewController.h */,
-				FF34E028204554F7003D0D59 /* ViewController.m */,
-				FF34E02A204554F7003D0D59 /* Main.storyboard */,
+				FF34E0662045559B003D0D59 /* Common */,
+				FF34E03A2045559B003D0D59 /* Feture */,
+				FF34E0652045559B003D0D59 /* Resource */,
 				FF34E02D204554F7003D0D59 /* Assets.xcassets */,
 				FF34E02F204554F7003D0D59 /* LaunchScreen.storyboard */,
 				FF34E032204554F7003D0D59 /* Info.plist */,
 				FF34E033204554F7003D0D59 /* main.m */,
 			);
 			path = FootballScoreVIP;
+			sourceTree = "<group>";
+		};
+		FF34E03A2045559B003D0D59 /* Feture */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E03B2045559B003D0D59 /* Schedule */,
+				FF34E0422045559B003D0D59 /* Myprofile */,
+				FF34E0492045559B003D0D59 /* Discovery */,
+				FF34E0502045559B003D0D59 /* Main */,
+				FF34E0592045559B003D0D59 /* Races */,
+			);
+			path = Feture;
+			sourceTree = "<group>";
+		};
+		FF34E03B2045559B003D0D59 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E03C2045559B003D0D59 /* ViewModel */,
+				FF34E03D2045559B003D0D59 /* Controller */,
+				FF34E0402045559B003D0D59 /* Model */,
+				FF34E0412045559B003D0D59 /* View */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		FF34E03C2045559B003D0D59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF34E03D2045559B003D0D59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E03E2045559B003D0D59 /* ScheduleViewController.m */,
+				FF34E03F2045559B003D0D59 /* ScheduleViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF34E0402045559B003D0D59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF34E0412045559B003D0D59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF34E0422045559B003D0D59 /* Myprofile */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0432045559B003D0D59 /* ViewModel */,
+				FF34E0442045559B003D0D59 /* Controller */,
+				FF34E0472045559B003D0D59 /* Model */,
+				FF34E0482045559B003D0D59 /* View */,
+			);
+			path = Myprofile;
+			sourceTree = "<group>";
+		};
+		FF34E0432045559B003D0D59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF34E0442045559B003D0D59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0452045559B003D0D59 /* MyprofileViewController.h */,
+				FF34E0462045559B003D0D59 /* MyprofileViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF34E0472045559B003D0D59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF34E0482045559B003D0D59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF34E0492045559B003D0D59 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E04A2045559B003D0D59 /* ViewModel */,
+				FF34E04B2045559B003D0D59 /* Controller */,
+				FF34E04E2045559B003D0D59 /* Model */,
+				FF34E04F2045559B003D0D59 /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		FF34E04A2045559B003D0D59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF34E04B2045559B003D0D59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E04C2045559B003D0D59 /* DiscoveryViewController.m */,
+				FF34E04D2045559B003D0D59 /* DiscoveryViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF34E04E2045559B003D0D59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF34E04F2045559B003D0D59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF34E0502045559B003D0D59 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0512045559B003D0D59 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FF34E0512045559B003D0D59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0522045559B003D0D59 /* MainNavigationController.h */,
+				FF34E0532045559B003D0D59 /* MainTabBarController.m */,
+				FF34E0542045559B003D0D59 /* MainNavigationController.m */,
+				FF34E0552045559B003D0D59 /* MainTabBarController.h */,
+				FF34E0562045559B003D0D59 /* Base */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF34E0562045559B003D0D59 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0572045559B003D0D59 /* BaseViewController.m */,
+				FF34E0582045559B003D0D59 /* BaseViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FF34E0592045559B003D0D59 /* Races */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E05A2045559B003D0D59 /* ViewModel */,
+				FF34E05D2045559B003D0D59 /* Controller */,
+				FF34E0612045559B003D0D59 /* Model */,
+				FF34E0642045559B003D0D59 /* View */,
+			);
+			path = Races;
+			sourceTree = "<group>";
+		};
+		FF34E05A2045559B003D0D59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E05C2045559B003D0D59 /* RacesViewModel.h */,
+				FF34E05B2045559B003D0D59 /* RacesViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF34E05D2045559B003D0D59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E05E2045559B003D0D59 /* RacesViewController.h */,
+				FF34E0602045559B003D0D59 /* RacesViewController.m */,
+				FF34E05F2045559B003D0D59 /* Storyboard.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF34E0612045559B003D0D59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0622045559B003D0D59 /* TWNewsModel.m */,
+				FF34E0632045559B003D0D59 /* TWNewsModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF34E0642045559B003D0D59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF34E0652045559B003D0D59 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FF34E0662045559B003D0D59 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0672045559B003D0D59 /* Category */,
+				FF34E0712045559B003D0D59 /* Network */,
+				FF34E0742045559B003D0D59 /* User */,
+				FF34E0752045559B003D0D59 /* Manager */,
+				FF34E0772045559B003D0D59 /* Header */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FF34E0672045559B003D0D59 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0682045559B003D0D59 /* UIImage */,
+				FF34E06B2045559B003D0D59 /* UIView */,
+				FF34E06E2045559B003D0D59 /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FF34E0682045559B003D0D59 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0692045559B003D0D59 /* UIImage+Image.m */,
+				FF34E06A2045559B003D0D59 /* UIImage+Image.h */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		FF34E06B2045559B003D0D59 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E06C2045559B003D0D59 /* UIView+Frame.m */,
+				FF34E06D2045559B003D0D59 /* UIView+Frame.h */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		FF34E06E2045559B003D0D59 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E06F2045559B003D0D59 /* UIViewController+Extention.m */,
+				FF34E0702045559B003D0D59 /* UIViewController+Extention.h */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		FF34E0712045559B003D0D59 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0722045559B003D0D59 /* NetworkManager.h */,
+				FF34E0732045559B003D0D59 /* NetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FF34E0742045559B003D0D59 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		FF34E0752045559B003D0D59 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0762045559B003D0D59 /* TWHUDManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FF34E0762045559B003D0D59 /* TWHUDManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TWHUDManager;
+			sourceTree = "<group>";
+		};
+		FF34E0772045559B003D0D59 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FF34E0782045559B003D0D59 /* ExternData.m */,
+				FF34E0792045559B003D0D59 /* Header.h */,
+				FF34E07A2045559B003D0D59 /* ExternData.h */,
+				FF34E07B2045559B003D0D59 /* PrefixHeader.pch */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +451,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF34E037204554F7003D0D59 /* Build configuration list for PBXNativeTarget "FootballScoreVIP" */;
 			buildPhases = (
+				A097D497100CE25630A780E6 /* [CP] Check Pods Manifest.lock */,
 				FF34E01D204554F7003D0D59 /* Sources */,
 				FF34E01E204554F7003D0D59 /* Frameworks */,
 				FF34E01F204554F7003D0D59 /* Resources */,
+				3CE4A357125943F657F46A6F /* [CP] Embed Pods Frameworks */,
+				AD9BFA50550EE735AEAC446D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,34 +507,97 @@
 			files = (
 				FF34E031204554F7003D0D59 /* LaunchScreen.storyboard in Resources */,
 				FF34E02E204554F7003D0D59 /* Assets.xcassets in Resources */,
-				FF34E02C204554F7003D0D59 /* Main.storyboard in Resources */,
+				FF34E0832045559B003D0D59 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE4A357125943F657F46A6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootballScoreVIP/Pods-FootballScoreVIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A097D497100CE25630A780E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FootballScoreVIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9BFA50550EE735AEAC446D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FootballScoreVIP/Pods-FootballScoreVIP-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FootballScoreVIP/Pods-FootballScoreVIP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF34E01D204554F7003D0D59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF34E029204554F7003D0D59 /* ViewController.m in Sources */,
+				FF34E0852045559B003D0D59 /* TWNewsModel.m in Sources */,
 				FF34E034204554F7003D0D59 /* main.m in Sources */,
+				FF34E0842045559B003D0D59 /* RacesViewController.m in Sources */,
+				FF34E0812045559B003D0D59 /* BaseViewController.m in Sources */,
+				FF34E0822045559B003D0D59 /* RacesViewModel.m in Sources */,
+				FF34E0872045559B003D0D59 /* UIView+Frame.m in Sources */,
+				FF34E07C2045559B003D0D59 /* ScheduleViewController.m in Sources */,
+				FF34E08A2045559B003D0D59 /* ExternData.m in Sources */,
+				FF34E0882045559B003D0D59 /* UIViewController+Extention.m in Sources */,
+				FF34E07F2045559B003D0D59 /* MainTabBarController.m in Sources */,
+				FF34E07D2045559B003D0D59 /* MyprofileViewController.m in Sources */,
+				FF34E0802045559B003D0D59 /* MainNavigationController.m in Sources */,
+				FF34E0862045559B003D0D59 /* UIImage+Image.m in Sources */,
 				FF34E026204554F7003D0D59 /* AppDelegate.m in Sources */,
+				FF34E0892045559B003D0D59 /* NetworkManager.m in Sources */,
+				FF34E07E2045559B003D0D59 /* DiscoveryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF34E02A204554F7003D0D59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF34E02B204554F7003D0D59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF34E02F204554F7003D0D59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,29 +715,35 @@
 		};
 		FF34E038204554F7003D0D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BE71F49066E012855CD14D /* Pods-FootballScoreVIP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FootballScoreVIP/Common/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FootballScoreVIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MG.FootballScoreVIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FF34E039204554F7003D0D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7661238FA5E96F570CC44BBA /* Pods-FootballScoreVIP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FootballScoreVIP/Common/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FootballScoreVIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MG.FootballScoreVIP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
