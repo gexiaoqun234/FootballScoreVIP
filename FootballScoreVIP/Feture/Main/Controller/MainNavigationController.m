@@ -14,8 +14,8 @@
 
 @implementation MainNavigationController
 
-+ (void)load{
-    UINavigationBar * navBar = [UINavigationBar appearanceWhenContainedIn:self, nil];
++ (void)initialize{
+    UINavigationBar * navBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[self]];
     NSMutableDictionary * dict = [NSMutableDictionary dictionary];
     dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:22];
     dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
