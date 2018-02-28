@@ -10,10 +10,10 @@
 
 #define TWNETWROK [NetworkManager shareInstance]
 
-typedef NS_ENUM(NSInteger ,TWResponseType) {
-    TWResponseTypeJSON,
-    TWResponseTypeHTTP
-};
+//typedef NS_ENUM(NSInteger ,TWResponseType) {
+//    TWResponseTypeJSON,
+//    TWResponseTypeHTTP
+//};
 
 typedef void(^NetworkSuccessHandle)(id result, NSURLSessionDataTask * task);
 typedef void(^NetworkFailureHandle)(NSError * error, NSURLSessionDataTask * task);
@@ -45,13 +45,11 @@ typedef void(^NetworkFailureHandle)(NSError * error, NSURLSessionDataTask * task
 
 - (NSURLSessionDataTask *)get:(NSString *)url
                        params:(id)params
-                 responseType:(TWResponseType)responseType
                       success:(NetworkSuccessHandle)success
                       failure:(NetworkFailureHandle)failure;
 
 - (NSURLSessionDataTask *)post:(NSString *)url
                         params:(id)params
-                  responseType:(TWResponseType)responseType
                        success:(NetworkSuccessHandle)success
                        failure:(NetworkFailureHandle)failure;
 

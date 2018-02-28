@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7w2-1l-FB8" customClass="TWBuyToolView">
+            <rect key="frame" x="0.0" y="0.0" width="547" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6Z-ct-a1k">
+                    <rect key="frame" x="20" y="70" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="L6Z-ct-a1k" secondAttribute="height" id="Tte-cI-RUq"/>
+                        <constraint firstAttribute="width" constant="20" id="hxJ-Ti-BgN"/>
+                    </constraints>
+                    <state key="normal" title="－">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="MinusButtonClick:" destination="7w2-1l-FB8" eventType="touchUpInside" id="TcL-R6-KxL"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgi-IT-Wbm">
+                    <rect key="frame" x="45" y="69.5" width="60" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="i1G-5f-koE"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ijv-ob-vGf">
+                    <rect key="frame" x="110" y="70" width="20" height="20"/>
+                    <state key="normal" title="＋">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="plusButtonClick:" destination="7w2-1l-FB8" eventType="touchUpInside" id="x43-Ma-61U"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="共10元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Joq-ZW-c2x">
+                    <rect key="frame" x="150" y="71" width="47" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqM-Bj-aYS">
+                    <rect key="frame" x="437" y="67.5" width="90" height="25"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="contentEdgeInsets" minX="20" minY="5" maxX="20" maxY="5"/>
+                    <state key="normal" title="立即投注"/>
+                    <connections>
+                        <action selector="ImmediatelyButtonClick:" destination="7w2-1l-FB8" eventType="touchUpInside" id="INc-N7-ExC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgk-sf-qAo">
+                    <rect key="frame" x="20" y="22" width="112" height="28"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="10倍">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="tenButtonClick:" destination="7w2-1l-FB8" eventType="touchUpInside" id="yGh-6Z-7SW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISH-gR-RB8">
+                    <rect key="frame" x="152" y="22" width="111.5" height="28"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="20倍">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="twentyButtonClick:" destination="7w2-1l-FB8" eventType="touchUpInside" id="M0R-pg-H79"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bA2-sB-EOM">
+                    <rect key="frame" x="283.5" y="22" width="112" height="28"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="50倍">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="fiftyButtonClick:" destination="7w2-1l-FB8" eventType="touchUpInside" id="zSD-5J-2xN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHL-aE-i3Y">
+                    <rect key="frame" x="415.5" y="22" width="111.5" height="28"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="100倍">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="hundredButtonClick:" destination="7w2-1l-FB8" eventType="touchUpInside" id="GON-gb-571"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="dgi-IT-Wbm" firstAttribute="leading" secondItem="L6Z-ct-a1k" secondAttribute="trailing" constant="5" id="12i-KX-V9r"/>
+                <constraint firstItem="sgk-sf-qAo" firstAttribute="leading" secondItem="L6Z-ct-a1k" secondAttribute="leading" id="81f-bg-RGu"/>
+                <constraint firstItem="Ijv-ob-vGf" firstAttribute="height" secondItem="L6Z-ct-a1k" secondAttribute="height" id="8Fp-a4-8Ij"/>
+                <constraint firstItem="bA2-sB-EOM" firstAttribute="centerY" secondItem="sgk-sf-qAo" secondAttribute="centerY" id="BDf-WW-8Fj"/>
+                <constraint firstItem="fqM-Bj-aYS" firstAttribute="centerY" secondItem="Joq-ZW-c2x" secondAttribute="centerY" id="Bpt-ai-kIu"/>
+                <constraint firstItem="bA2-sB-EOM" firstAttribute="leading" secondItem="ISH-gR-RB8" secondAttribute="trailing" constant="20" id="CrC-uw-vnJ"/>
+                <constraint firstItem="ISH-gR-RB8" firstAttribute="height" secondItem="sgk-sf-qAo" secondAttribute="height" id="Fhq-tr-W8z"/>
+                <constraint firstItem="L6Z-ct-a1k" firstAttribute="leading" secondItem="7w2-1l-FB8" secondAttribute="leading" constant="20" id="GwC-cS-sVh"/>
+                <constraint firstItem="RHL-aE-i3Y" firstAttribute="leading" secondItem="bA2-sB-EOM" secondAttribute="trailing" constant="20" id="Qj7-za-2za"/>
+                <constraint firstItem="RHL-aE-i3Y" firstAttribute="height" secondItem="sgk-sf-qAo" secondAttribute="height" id="Qq2-PL-gdj"/>
+                <constraint firstItem="RHL-aE-i3Y" firstAttribute="width" secondItem="sgk-sf-qAo" secondAttribute="width" id="Qub-hM-L1g"/>
+                <constraint firstItem="ISH-gR-RB8" firstAttribute="width" secondItem="sgk-sf-qAo" secondAttribute="width" id="THH-YF-qLq"/>
+                <constraint firstItem="ISH-gR-RB8" firstAttribute="leading" secondItem="sgk-sf-qAo" secondAttribute="trailing" constant="20" id="Vr8-jG-kDi"/>
+                <constraint firstItem="RHL-aE-i3Y" firstAttribute="centerY" secondItem="sgk-sf-qAo" secondAttribute="centerY" id="X1B-Oy-K6O"/>
+                <constraint firstItem="Ijv-ob-vGf" firstAttribute="leading" secondItem="dgi-IT-Wbm" secondAttribute="trailing" constant="5" id="ZX2-Dl-ygu"/>
+                <constraint firstItem="Ijv-ob-vGf" firstAttribute="centerY" secondItem="dgi-IT-Wbm" secondAttribute="centerY" id="emG-23-pgd"/>
+                <constraint firstItem="dgi-IT-Wbm" firstAttribute="centerY" secondItem="L6Z-ct-a1k" secondAttribute="centerY" id="ezO-Wg-Ksk"/>
+                <constraint firstAttribute="bottom" secondItem="L6Z-ct-a1k" secondAttribute="bottom" constant="40" id="gWO-oU-9ak"/>
+                <constraint firstItem="Ijv-ob-vGf" firstAttribute="width" secondItem="L6Z-ct-a1k" secondAttribute="width" id="gYw-YM-cMB"/>
+                <constraint firstItem="Joq-ZW-c2x" firstAttribute="leading" secondItem="Ijv-ob-vGf" secondAttribute="trailing" constant="20" id="hhZ-0H-yEq"/>
+                <constraint firstItem="bA2-sB-EOM" firstAttribute="height" secondItem="sgk-sf-qAo" secondAttribute="height" id="k27-Oa-fW5"/>
+                <constraint firstItem="L6Z-ct-a1k" firstAttribute="top" secondItem="sgk-sf-qAo" secondAttribute="bottom" constant="20" id="k3U-kb-r8F"/>
+                <constraint firstItem="Joq-ZW-c2x" firstAttribute="centerY" secondItem="Ijv-ob-vGf" secondAttribute="centerY" id="leU-9s-WOm"/>
+                <constraint firstItem="ISH-gR-RB8" firstAttribute="centerY" secondItem="sgk-sf-qAo" secondAttribute="centerY" id="lzV-Rn-OHU"/>
+                <constraint firstItem="bA2-sB-EOM" firstAttribute="width" secondItem="sgk-sf-qAo" secondAttribute="width" id="m8A-gr-j4k"/>
+                <constraint firstAttribute="trailing" secondItem="RHL-aE-i3Y" secondAttribute="trailing" constant="20" id="r4X-AB-Oby"/>
+                <constraint firstAttribute="trailing" secondItem="fqM-Bj-aYS" secondAttribute="trailing" constant="20" id="uls-zo-Klb"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ImmediatelyButton" destination="fqM-Bj-aYS" id="eLn-3F-6EX"/>
+                <outlet property="MinusButton" destination="L6Z-ct-a1k" id="hum-sU-ZW2"/>
+                <outlet property="fiftyButton" destination="bA2-sB-EOM" id="3PF-lM-IqH"/>
+                <outlet property="hundredButton" destination="RHL-aE-i3Y" id="0lq-Hz-qGk"/>
+                <outlet property="multipleTextfield" destination="dgi-IT-Wbm" id="Ae0-Am-y3P"/>
+                <outlet property="plusButton" destination="Ijv-ob-vGf" id="1aM-Mh-VQt"/>
+                <outlet property="tenButton" destination="sgk-sf-qAo" id="W0a-ZX-lJF"/>
+                <outlet property="totleLabel" destination="Joq-ZW-c2x" id="Vwy-KA-VJo"/>
+                <outlet property="twentyButton" destination="ISH-gR-RB8" id="U4G-W6-GuB"/>
+            </connections>
+            <point key="canvasLocation" x="137.5" y="-479"/>
+        </view>
+    </objects>
+</document>

@@ -23,6 +23,7 @@
         if (manager == nil) {
             manager = [[NetworkManager alloc]init];
             manager.sessionManager = [AFHTTPSessionManager manager];
+            manager.sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/plain",@"text/html",@"text/xml", nil];
         }
     });
     return manager;
@@ -34,8 +35,9 @@
 }
 
 
-- (NSURLSessionDataTask *)get:(NSString *)url params:(id)params responseType:(TWResponseType)responseType success:(NetworkSuccessHandle)success failure:(NetworkFailureHandle)failure{
-    [self configResponseForType:responseType];
+- (NSURLSessionDataTask *)get:(NSString *)url params:(id)params success:(NetworkSuccessHandle)success failure:(NetworkFailureHandle)failure{
+    TWLogFunc
+//    [self configResponseForType:responseType];
     return [self.sessionManager GET:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (success) {
             success(responseObject, task);
@@ -47,8 +49,8 @@
     }];
 }
 
-- (NSURLSessionDataTask *)post:(NSString *)url params:(id)params responseType:(TWResponseType)responseType success:(NetworkSuccessHandle)success failure:(NetworkFailureHandle)failure{
-    [self configResponseForType:responseType];
+- (NSURLSessionDataTask *)post:(NSString *)url params:(id)params success:(NetworkSuccessHandle)success failure:(NetworkFailureHandle)failure{
+//    [self configResponseForType:responseType];
     return [self.sessionManager POST:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (success) {
             success(responseObject, task);
@@ -62,18 +64,18 @@
 
 
 // 配置请求类型
-- (void)configResponseForType:(TWResponseType)type{
-    switch (type) {
-        case TWResponseTypeJSON:
-            self.sessionManager.responseSerializer = self.jsonResponseSerializer;
-            break;
-        case TWResponseTypeHTTP:
-            self.sessionManager.responseSerializer = self.httpResponseSerializer;
-            break;
-        default:
-            break;
-    }
-}
+//- (void)configResponseForType:(TWResponseType)type{
+//    switch (type) {
+//        case TWResponseTypeJSON:
+//            self.sessionManager.responseSerializer = self.jsonResponseSerializer;
+//            break;
+//        case TWResponseTypeHTTP:
+//            self.sessionManager.responseSerializer = self.httpResponseSerializer;
+//            break;
+//        default:
+//            break;
+//    }
+//}
 
 #pragma mark - getters
 - (AFJSONResponseSerializer *)jsonResponseSerializer {

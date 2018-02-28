@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SHRedUserCollectionCell" id="gTV-IL-0wX" customClass="SHRedUserCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="129" height="146"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="129" height="146"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5op-Nl-biP">
+                        <rect key="frame" x="10" y="10" width="109" height="109"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="5op-Nl-biP" secondAttribute="height" multiplier="15:15" id="F9m-Ws-tQ5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMz-1A-JRB">
+                        <rect key="frame" x="49" y="124" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5op-Nl-biP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="IE4-CN-QmW"/>
+                <constraint firstItem="5op-Nl-biP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="J9D-AE-eix"/>
+                <constraint firstItem="wMz-1A-JRB" firstAttribute="centerX" secondItem="5op-Nl-biP" secondAttribute="centerX" id="RAo-4f-5nL"/>
+                <constraint firstAttribute="trailing" secondItem="5op-Nl-biP" secondAttribute="trailing" constant="10" id="f3D-Pz-tKc"/>
+                <constraint firstItem="wMz-1A-JRB" firstAttribute="top" secondItem="5op-Nl-biP" secondAttribute="bottom" constant="5" id="vAn-CR-LEn"/>
+            </constraints>
+            <size key="customSize" width="129" height="146"/>
+            <connections>
+                <outlet property="iconImageView" destination="5op-Nl-biP" id="pMO-9K-lrz"/>
+                <outlet property="userNameLabel" destination="wMz-1A-JRB" id="YUy-Xg-a3r"/>
+            </connections>
+            <point key="canvasLocation" x="73.5" y="210"/>
+        </collectionViewCell>
+    </objects>
+</document>

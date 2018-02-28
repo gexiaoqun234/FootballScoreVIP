@@ -26,7 +26,7 @@
 @implementation MainTabBarController
 
 + (void)load{
-    UITabBarItem * item = [UITabBarItem appearanceWhenContainedIn:self, nil];
+    UITabBarItem * item = [UITabBarItem appearanceWhenContainedInInstancesOfClasses:@[self]];
 
     NSMutableDictionary * dictNomal = [NSMutableDictionary dictionary];
     dictNomal[NSForegroundColorAttributeName] = TWColorRGB(172, 172, 173);

@@ -86,14 +86,9 @@
     return 0;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 0;
-}
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     return nil;
 }
-
 
 #pragma mark - ========setter=======
 - (void)setLoading:(BOOL)loading{
@@ -125,6 +120,15 @@
         
         _tableView.emptyDataSetSource = self;
         _tableView.emptyDataSetDelegate = self;
+        
+        [_tableView registerNib:[UINib nibWithNibName:@"TWFamousListCell" bundle:nil] forCellReuseIdentifier:TWFamousListCellID];
+        [_tableView registerNib:[UINib nibWithNibName:@"TWExplainListCell" bundle:nil] forCellReuseIdentifier:TWExplainListCellID];
+        [_tableView registerNib:[UINib nibWithNibName:@"TWNewsCell" bundle:nil] forCellReuseIdentifier:TWNewsCellID];
+        [_tableView registerNib:[UINib nibWithNibName:@"TWForecastCell" bundle:nil] forCellReuseIdentifier:TWForecastCellID];
+        [_tableView registerNib:[UINib nibWithNibName:@"SHSectionOneCell" bundle:nil] forCellReuseIdentifier:CFSectionOneCell];
+        [_tableView registerNib:[UINib nibWithNibName:@"SHSectionTwoCell" bundle:nil] forCellReuseIdentifier:CFSectionTwoCell];
+        [_tableView registerNib:[UINib nibWithNibName:@"TWHotLstCell" bundle:nil] forCellReuseIdentifier:CFTWHotLstCell];
+        
     }
     return _tableView;
 }

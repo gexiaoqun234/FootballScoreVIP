@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TWSubUserListCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="TWSubUserListCell" rowHeight="52" id="KGk-i7-Jjw" customClass="TWSubUserListCell">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="51.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wm5-PD-Pyh">
+                        <rect key="frame" x="0.0" y="5" width="108" height="41.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ece-VB-ZK9">
+                        <rect key="frame" x="108" y="5" width="108" height="41.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSa-8H-CGR">
+                        <rect key="frame" x="216" y="5" width="108" height="41.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ece-VB-ZK9" firstAttribute="leading" secondItem="Wm5-PD-Pyh" secondAttribute="trailing" id="0n4-qq-m7p"/>
+                    <constraint firstItem="Wm5-PD-Pyh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="4Jj-kJ-AOw"/>
+                    <constraint firstItem="VSa-8H-CGR" firstAttribute="leading" secondItem="Ece-VB-ZK9" secondAttribute="trailing" id="5k3-gz-Hdg"/>
+                    <constraint firstAttribute="trailing" secondItem="VSa-8H-CGR" secondAttribute="trailing" id="B6h-yt-4Rj"/>
+                    <constraint firstItem="Ece-VB-ZK9" firstAttribute="centerY" secondItem="Wm5-PD-Pyh" secondAttribute="centerY" id="JAC-dC-0mb"/>
+                    <constraint firstItem="VSa-8H-CGR" firstAttribute="height" secondItem="Wm5-PD-Pyh" secondAttribute="height" id="U8K-Bt-qVN"/>
+                    <constraint firstItem="Ece-VB-ZK9" firstAttribute="height" secondItem="Wm5-PD-Pyh" secondAttribute="height" id="Zdl-0a-EwE"/>
+                    <constraint firstItem="Ece-VB-ZK9" firstAttribute="width" secondItem="Wm5-PD-Pyh" secondAttribute="width" id="f4v-sl-2pd"/>
+                    <constraint firstAttribute="bottom" secondItem="Wm5-PD-Pyh" secondAttribute="bottom" constant="5" id="mzU-FE-4fE"/>
+                    <constraint firstItem="VSa-8H-CGR" firstAttribute="centerY" secondItem="Wm5-PD-Pyh" secondAttribute="centerY" id="p5L-pS-V8V"/>
+                    <constraint firstItem="VSa-8H-CGR" firstAttribute="width" secondItem="Wm5-PD-Pyh" secondAttribute="width" id="pKm-fh-9Hb"/>
+                    <constraint firstItem="Wm5-PD-Pyh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xd0-AV-AgB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cadddateLabel" destination="VSa-8H-CGR" id="B4d-Nq-aiJ"/>
+                <outlet property="cimoneyLabel" destination="Ece-VB-ZK9" id="Pyi-eS-R6B"/>
+                <outlet property="nicknameLabel" destination="Wm5-PD-Pyh" id="9ZA-5h-Y1l"/>
+            </connections>
+            <point key="canvasLocation" x="36" y="58"/>
+        </tableViewCell>
+    </objects>
+</document>

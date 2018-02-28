@@ -6,9 +6,9 @@
 //  Copyright © 2018年 MG. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SHBaseViewController.h"
 
-@interface BaseViewController : UIViewController<DZNEmptyDataSetSource, DZNEmptyDataSetDelegate, UITableViewDelegate, UITableViewDataSource>
+@interface BaseViewController : SHBaseViewController<DZNEmptyDataSetSource, DZNEmptyDataSetDelegate, UITableViewDelegate, UITableViewDataSource>
 // 记录当前空白页的加载状态
 @property (nonatomic, getter=isLoading) BOOL loading;
 @property (nonatomic, strong) UITableView * tableView;
