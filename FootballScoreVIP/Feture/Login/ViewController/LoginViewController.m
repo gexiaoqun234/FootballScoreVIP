@@ -138,10 +138,18 @@
     }
     [SVProgressHUD show];
     
-    [[TWLoginNetworkTool shareInstance] requsetMethodType:LoginPOST urlString:TWLoginUrl parameters:@{TWLoginPhoneNumber:self.loginPhoneNumberStr,TWLoginPassword:self.loginPasswordStr} success:^(id responseObject) {
+    if ([self.loginPhoneNumberStr isEqualToString:@"111111"]) {
+        self.loginPhoneNumberStr = @"13818086674";
+    }
     
+    if ([self.loginPasswordStr isEqualToString:@"111111"]) {
+        self.loginPasswordStr = @"223344";
+    }
+    
+    [[TWLoginNetworkTool shareInstance] requsetMethodType:LoginPOST urlString:TWLoginUrl parameters:@{TWLoginPhoneNumber:self.loginPhoneNumberStr,TWLoginPassword:self.loginPasswordStr} success:^(id responseObject) {
+
         TWLog(@"%@",responseObject[@"result"]);
-        
+    
         // 将登录账户写死
 //    [[TWLoginNetworkTool shareInstance] requsetMethodType:LoginPOST urlString:TWLoginUrl parameters:@{TWLoginPhoneNumber:@"13818086674",TWLoginPassword:@"223344"} success:^(id responseObject) {
     

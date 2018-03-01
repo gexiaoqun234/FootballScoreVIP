@@ -18,6 +18,51 @@
 		FF0C57D32047AC96005564AF /* TWbasketballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57CB2047AC96005564AF /* TWbasketballViewController.m */; };
 		FF0C57D42047AC96005564AF /* TWForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57D02047AC96005564AF /* TWForecastViewController.m */; };
 		FF0C58582047CCE8005564AF /* UILabel+TWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58572047CCE8005564AF /* UILabel+TWLabel.m */; };
+		FF0C58C62047CFD6005564AF /* TWGetOrdersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58A32047CFD6005564AF /* TWGetOrdersCell.xib */; };
+		FF0C58C72047CFD6005564AF /* IntegralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58A42047CFD6005564AF /* IntegralCell.m */; };
+		FF0C58C82047CFD6005564AF /* TWSectionToolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58A52047CFD6005564AF /* TWSectionToolCell.xib */; };
+		FF0C58C92047CFD6005564AF /* TWSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58A62047CFD6005564AF /* TWSectionCell.m */; };
+		FF0C58CA2047CFD6005564AF /* MineHeaderTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58A92047CFD6005564AF /* MineHeaderTopView.m */; };
+		FF0C58CB2047CFD6005564AF /* TWSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58AB2047CFD6005564AF /* TWSectionCell.xib */; };
+		FF0C58CC2047CFD6005564AF /* TWOrderDetailTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58AD2047CFD6005564AF /* TWOrderDetailTwoCell.xib */; };
+		FF0C58CD2047CFD6005564AF /* TWGetOrdersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58AE2047CFD6005564AF /* TWGetOrdersCell.m */; };
+		FF0C58CE2047CFD6005564AF /* ShowInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58AF2047CFD6005564AF /* ShowInfoCell.m */; };
+		FF0C58CF2047CFD6005564AF /* TWOrderDetailTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58B02047CFD6005564AF /* TWOrderDetailTwoCell.m */; };
+		FF0C58D02047CFD6005564AF /* TWSectionToolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58B12047CFD6005564AF /* TWSectionToolCell.m */; };
+		FF0C58D12047CFD6005564AF /* TWGetOrdersDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58B42047CFD6005564AF /* TWGetOrdersDetailCell.m */; };
+		FF0C58D22047CFD6005564AF /* TWGetOrdersDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58B62047CFD6005564AF /* TWGetOrdersDetailCell.xib */; };
+		FF0C58D32047CFD6005564AF /* ShowInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58B72047CFD6005564AF /* ShowInfoCell.xib */; };
+		FF0C58D42047CFD6005564AF /* IntegralCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58B82047CFD6005564AF /* IntegralCell.xib */; };
+		FF0C58D52047CFD6005564AF /* LoginOutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58B92047CFD6005564AF /* LoginOutCell.m */; };
+		FF0C58D62047CFD6005564AF /* TWOrderDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58C02047CFD6005564AF /* TWOrderDetailModel.m */; };
+		FF0C58D72047CFD6005564AF /* TWGetOrdersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58C12047CFD6005564AF /* TWGetOrdersModel.m */; };
+		FF0C58D82047CFD6005564AF /* SaveSelectorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58C22047CFD6005564AF /* SaveSelectorModel.m */; };
+		FF0C58D92047CFD6005564AF /* ForumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58C32047CFD6005564AF /* ForumModel.m */; };
+		FF0C58DA2047CFD6005564AF /* integralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58C42047CFD6005564AF /* integralModel.m */; };
+		FF0C59062047D198005564AF /* MySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58DC2047D197005564AF /* MySelectViewController.m */; };
+		FF0C59072047D198005564AF /* TWHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58DD2047D197005564AF /* TWHelpViewController.xib */; };
+		FF0C59082047D198005564AF /* TWHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58DE2047D197005564AF /* TWHelpViewController.m */; };
+		FF0C59092047D198005564AF /* IconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58E22047D197005564AF /* IconViewController.xib */; };
+		FF0C590A2047D198005564AF /* IconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58E32047D197005564AF /* IconViewController.m */; };
+		FF0C590B2047D198005564AF /* BindingRealInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58E62047D197005564AF /* BindingRealInfoViewController.xib */; };
+		FF0C590C2047D198005564AF /* BindingRealInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58E72047D197005564AF /* BindingRealInfoViewController.m */; };
+		FF0C590D2047D198005564AF /* TWSelectNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58E92047D197005564AF /* TWSelectNewsViewController.m */; };
+		FF0C590E2047D198005564AF /* MySelectForumController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58EA2047D197005564AF /* MySelectForumController.m */; };
+		FF0C590F2047D198005564AF /* ChangeSignController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58EE2047D197005564AF /* ChangeSignController.m */; };
+		FF0C59102047D198005564AF /* ChangeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58F02047D197005564AF /* ChangeInfoViewController.m */; };
+		FF0C59112047D198005564AF /* ChangePwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58F22047D197005564AF /* ChangePwdController.m */; };
+		FF0C59122047D198005564AF /* ChangeSignController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58F32047D197005564AF /* ChangeSignController.xib */; };
+		FF0C59132047D198005564AF /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58F52047D197005564AF /* ChangePasswordViewController.m */; };
+		FF0C59142047D198005564AF /* UserNameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58F72047D197005564AF /* UserNameController.xib */; };
+		FF0C59152047D198005564AF /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58F82047D197005564AF /* ChangePasswordViewController.xib */; };
+		FF0C59162047D198005564AF /* ChangePwdController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C58F92047D197005564AF /* ChangePwdController.xib */; };
+		FF0C59172047D198005564AF /* UserNameController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58FB2047D197005564AF /* UserNameController.m */; };
+		FF0C59182047D198005564AF /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C59002047D198005564AF /* BuyViewController.m */; };
+		FF0C59192047D198005564AF /* TWBuyCPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C59012047D198005564AF /* TWBuyCPViewController.m */; };
+		FF0C591A2047D198005564AF /* TWOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C59022047D198005564AF /* TWOrderDetailViewController.m */; };
+		FF0C591B2047D198005564AF /* IntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C59042047D198005564AF /* IntegralViewController.m */; };
+		FF0C59202047D6DD005564AF /* TWFastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C591E2047D6DC005564AF /* TWFastButton.m */; };
+		FF0C59212047D6DD005564AF /* TWTime.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C591F2047D6DC005564AF /* TWTime.m */; };
 		FF2F629C20465AAA00FFCAF4 /* TWExplanationDetailSectionTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2F624A20465AA900FFCAF4 /* TWExplanationDetailSectionTwo.xib */; };
 		FF2F629D20465AAA00FFCAF4 /* TWExplanationDetailSectionOne.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F624B20465AA900FFCAF4 /* TWExplanationDetailSectionOne.m */; };
 		FF2F629E20465AAA00FFCAF4 /* TWItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F624C20465AA900FFCAF4 /* TWItemCell.m */; };
@@ -136,6 +181,7 @@
 		FF34E0D120464F9F003D0D59 /* TWExplainListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0B620464F9F003D0D59 /* TWExplainListModel.m */; };
 		FF34E0D220464F9F003D0D59 /* SHPlanforecastitemsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0B720464F9F003D0D59 /* SHPlanforecastitemsModel.m */; };
 		FF34E0D320464F9F003D0D59 /* TWForecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34E0BC20464F9F003D0D59 /* TWForecastModel.m */; };
+		FF7367362047D88600644AA1 /* UIButton+TWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7367342047D88600644AA1 /* UIButton+TWButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +208,82 @@
 		FF0C57D02047AC96005564AF /* TWForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWForecastViewController.m; sourceTree = "<group>"; };
 		FF0C58562047CCE8005564AF /* UILabel+TWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TWLabel.h"; sourceTree = "<group>"; };
 		FF0C58572047CCE8005564AF /* UILabel+TWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TWLabel.m"; sourceTree = "<group>"; };
+		FF0C58A12047CFD6005564AF /* ShowInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowInfoCell.h; sourceTree = "<group>"; };
+		FF0C58A22047CFD6005564AF /* TWGetOrdersCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGetOrdersCell.h; sourceTree = "<group>"; };
+		FF0C58A32047CFD6005564AF /* TWGetOrdersCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWGetOrdersCell.xib; sourceTree = "<group>"; };
+		FF0C58A42047CFD6005564AF /* IntegralCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegralCell.m; sourceTree = "<group>"; };
+		FF0C58A52047CFD6005564AF /* TWSectionToolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWSectionToolCell.xib; sourceTree = "<group>"; };
+		FF0C58A62047CFD6005564AF /* TWSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSectionCell.m; sourceTree = "<group>"; };
+		FF0C58A72047CFD6005564AF /* TWSectionToolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSectionToolCell.h; sourceTree = "<group>"; };
+		FF0C58A82047CFD6005564AF /* TWOrderDetailTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWOrderDetailTwoCell.h; sourceTree = "<group>"; };
+		FF0C58A92047CFD6005564AF /* MineHeaderTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineHeaderTopView.m; sourceTree = "<group>"; };
+		FF0C58AA2047CFD6005564AF /* TWGetOrdersDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGetOrdersDetailCell.h; sourceTree = "<group>"; };
+		FF0C58AB2047CFD6005564AF /* TWSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWSectionCell.xib; sourceTree = "<group>"; };
+		FF0C58AC2047CFD6005564AF /* LoginOutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginOutCell.h; sourceTree = "<group>"; };
+		FF0C58AD2047CFD6005564AF /* TWOrderDetailTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWOrderDetailTwoCell.xib; sourceTree = "<group>"; };
+		FF0C58AE2047CFD6005564AF /* TWGetOrdersCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGetOrdersCell.m; sourceTree = "<group>"; };
+		FF0C58AF2047CFD6005564AF /* ShowInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowInfoCell.m; sourceTree = "<group>"; };
+		FF0C58B02047CFD6005564AF /* TWOrderDetailTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWOrderDetailTwoCell.m; sourceTree = "<group>"; };
+		FF0C58B12047CFD6005564AF /* TWSectionToolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSectionToolCell.m; sourceTree = "<group>"; };
+		FF0C58B22047CFD6005564AF /* TWSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSectionCell.h; sourceTree = "<group>"; };
+		FF0C58B32047CFD6005564AF /* IntegralCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegralCell.h; sourceTree = "<group>"; };
+		FF0C58B42047CFD6005564AF /* TWGetOrdersDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGetOrdersDetailCell.m; sourceTree = "<group>"; };
+		FF0C58B52047CFD6005564AF /* MineHeaderTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineHeaderTopView.h; sourceTree = "<group>"; };
+		FF0C58B62047CFD6005564AF /* TWGetOrdersDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWGetOrdersDetailCell.xib; sourceTree = "<group>"; };
+		FF0C58B72047CFD6005564AF /* ShowInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowInfoCell.xib; sourceTree = "<group>"; };
+		FF0C58B82047CFD6005564AF /* IntegralCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntegralCell.xib; sourceTree = "<group>"; };
+		FF0C58B92047CFD6005564AF /* LoginOutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginOutCell.m; sourceTree = "<group>"; };
+		FF0C58BB2047CFD6005564AF /* SaveSelectorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveSelectorModel.h; sourceTree = "<group>"; };
+		FF0C58BC2047CFD6005564AF /* TWGetOrdersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGetOrdersModel.h; sourceTree = "<group>"; };
+		FF0C58BD2047CFD6005564AF /* TWOrderDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWOrderDetailModel.h; sourceTree = "<group>"; };
+		FF0C58BE2047CFD6005564AF /* ForumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumModel.h; sourceTree = "<group>"; };
+		FF0C58BF2047CFD6005564AF /* integralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = integralModel.h; sourceTree = "<group>"; };
+		FF0C58C02047CFD6005564AF /* TWOrderDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWOrderDetailModel.m; sourceTree = "<group>"; };
+		FF0C58C12047CFD6005564AF /* TWGetOrdersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGetOrdersModel.m; sourceTree = "<group>"; };
+		FF0C58C22047CFD6005564AF /* SaveSelectorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveSelectorModel.m; sourceTree = "<group>"; };
+		FF0C58C32047CFD6005564AF /* ForumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumModel.m; sourceTree = "<group>"; };
+		FF0C58C42047CFD6005564AF /* integralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = integralModel.m; sourceTree = "<group>"; };
+		FF0C58DC2047D197005564AF /* MySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySelectViewController.m; sourceTree = "<group>"; };
+		FF0C58DD2047D197005564AF /* TWHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWHelpViewController.xib; sourceTree = "<group>"; };
+		FF0C58DE2047D197005564AF /* TWHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHelpViewController.m; sourceTree = "<group>"; };
+		FF0C58DF2047D197005564AF /* MySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySelectViewController.h; sourceTree = "<group>"; };
+		FF0C58E02047D197005564AF /* TWHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHelpViewController.h; sourceTree = "<group>"; };
+		FF0C58E22047D197005564AF /* IconViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconViewController.xib; sourceTree = "<group>"; };
+		FF0C58E32047D197005564AF /* IconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewController.m; sourceTree = "<group>"; };
+		FF0C58E42047D197005564AF /* BindingRealInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingRealInfoViewController.h; sourceTree = "<group>"; };
+		FF0C58E52047D197005564AF /* IconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconViewController.h; sourceTree = "<group>"; };
+		FF0C58E62047D197005564AF /* BindingRealInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BindingRealInfoViewController.xib; sourceTree = "<group>"; };
+		FF0C58E72047D197005564AF /* BindingRealInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingRealInfoViewController.m; sourceTree = "<group>"; };
+		FF0C58E92047D197005564AF /* TWSelectNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSelectNewsViewController.m; sourceTree = "<group>"; };
+		FF0C58EA2047D197005564AF /* MySelectForumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySelectForumController.m; sourceTree = "<group>"; };
+		FF0C58EB2047D197005564AF /* TWSelectNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSelectNewsViewController.h; sourceTree = "<group>"; };
+		FF0C58EC2047D197005564AF /* MySelectForumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySelectForumController.h; sourceTree = "<group>"; };
+		FF0C58EE2047D197005564AF /* ChangeSignController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeSignController.m; sourceTree = "<group>"; };
+		FF0C58EF2047D197005564AF /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		FF0C58F02047D197005564AF /* ChangeInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeInfoViewController.m; sourceTree = "<group>"; };
+		FF0C58F12047D197005564AF /* UserNameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNameController.h; sourceTree = "<group>"; };
+		FF0C58F22047D197005564AF /* ChangePwdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePwdController.m; sourceTree = "<group>"; };
+		FF0C58F32047D197005564AF /* ChangeSignController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeSignController.xib; sourceTree = "<group>"; };
+		FF0C58F42047D197005564AF /* ChangeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeInfoViewController.h; sourceTree = "<group>"; };
+		FF0C58F52047D197005564AF /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		FF0C58F62047D197005564AF /* ChangeSignController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeSignController.h; sourceTree = "<group>"; };
+		FF0C58F72047D197005564AF /* UserNameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNameController.xib; sourceTree = "<group>"; };
+		FF0C58F82047D197005564AF /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		FF0C58F92047D197005564AF /* ChangePwdController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePwdController.xib; sourceTree = "<group>"; };
+		FF0C58FA2047D197005564AF /* ChangePwdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePwdController.h; sourceTree = "<group>"; };
+		FF0C58FB2047D197005564AF /* UserNameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNameController.m; sourceTree = "<group>"; };
+		FF0C58FD2047D198005564AF /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
+		FF0C58FE2047D198005564AF /* TWBuyCPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBuyCPViewController.h; sourceTree = "<group>"; };
+		FF0C58FF2047D198005564AF /* TWOrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWOrderDetailViewController.h; sourceTree = "<group>"; };
+		FF0C59002047D198005564AF /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
+		FF0C59012047D198005564AF /* TWBuyCPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWBuyCPViewController.m; sourceTree = "<group>"; };
+		FF0C59022047D198005564AF /* TWOrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWOrderDetailViewController.m; sourceTree = "<group>"; };
+		FF0C59042047D198005564AF /* IntegralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegralViewController.m; sourceTree = "<group>"; };
+		FF0C59052047D198005564AF /* IntegralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegralViewController.h; sourceTree = "<group>"; };
+		FF0C591C2047D6DC005564AF /* TWFastButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFastButton.h; sourceTree = "<group>"; };
+		FF0C591D2047D6DC005564AF /* TWTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTime.h; sourceTree = "<group>"; };
+		FF0C591E2047D6DC005564AF /* TWFastButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFastButton.m; sourceTree = "<group>"; };
+		FF0C591F2047D6DC005564AF /* TWTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTime.m; sourceTree = "<group>"; };
 		FF2F624820465AA900FFCAF4 /* TWExplanationDetailSectionTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWExplanationDetailSectionTwo.h; sourceTree = "<group>"; };
 		FF2F624920465AA900FFCAF4 /* TWPlanforecastitemTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPlanforecastitemTableView.h; sourceTree = "<group>"; };
 		FF2F624A20465AA900FFCAF4 /* TWExplanationDetailSectionTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWExplanationDetailSectionTwo.xib; sourceTree = "<group>"; };
@@ -373,6 +495,8 @@
 		FF34E0B920464F9F003D0D59 /* TWFamousListsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFamousListsModel.h; sourceTree = "<group>"; };
 		FF34E0BB20464F9F003D0D59 /* TWForecastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWForecastModel.h; sourceTree = "<group>"; };
 		FF34E0BC20464F9F003D0D59 /* TWForecastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWForecastModel.m; sourceTree = "<group>"; };
+		FF7367342047D88600644AA1 /* UIButton+TWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TWButton.m"; sourceTree = "<group>"; };
+		FF7367352047D88600644AA1 /* UIButton+TWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TWButton.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -443,6 +567,145 @@
 				FF0C58572047CCE8005564AF /* UILabel+TWLabel.m */,
 			);
 			path = UILabel;
+			sourceTree = "<group>";
+		};
+		FF0C58A02047CFD6005564AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58A12047CFD6005564AF /* ShowInfoCell.h */,
+				FF0C58A22047CFD6005564AF /* TWGetOrdersCell.h */,
+				FF0C58A32047CFD6005564AF /* TWGetOrdersCell.xib */,
+				FF0C58A42047CFD6005564AF /* IntegralCell.m */,
+				FF0C58A52047CFD6005564AF /* TWSectionToolCell.xib */,
+				FF0C58A62047CFD6005564AF /* TWSectionCell.m */,
+				FF0C58A72047CFD6005564AF /* TWSectionToolCell.h */,
+				FF0C58A82047CFD6005564AF /* TWOrderDetailTwoCell.h */,
+				FF0C58A92047CFD6005564AF /* MineHeaderTopView.m */,
+				FF0C58AA2047CFD6005564AF /* TWGetOrdersDetailCell.h */,
+				FF0C58AB2047CFD6005564AF /* TWSectionCell.xib */,
+				FF0C58AC2047CFD6005564AF /* LoginOutCell.h */,
+				FF0C58AD2047CFD6005564AF /* TWOrderDetailTwoCell.xib */,
+				FF0C58AE2047CFD6005564AF /* TWGetOrdersCell.m */,
+				FF0C58AF2047CFD6005564AF /* ShowInfoCell.m */,
+				FF0C58B02047CFD6005564AF /* TWOrderDetailTwoCell.m */,
+				FF0C58B12047CFD6005564AF /* TWSectionToolCell.m */,
+				FF0C58B22047CFD6005564AF /* TWSectionCell.h */,
+				FF0C58B32047CFD6005564AF /* IntegralCell.h */,
+				FF0C58B42047CFD6005564AF /* TWGetOrdersDetailCell.m */,
+				FF0C58B52047CFD6005564AF /* MineHeaderTopView.h */,
+				FF0C58B62047CFD6005564AF /* TWGetOrdersDetailCell.xib */,
+				FF0C58B72047CFD6005564AF /* ShowInfoCell.xib */,
+				FF0C58B82047CFD6005564AF /* IntegralCell.xib */,
+				FF0C58B92047CFD6005564AF /* LoginOutCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF0C58BA2047CFD6005564AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58BB2047CFD6005564AF /* SaveSelectorModel.h */,
+				FF0C58BC2047CFD6005564AF /* TWGetOrdersModel.h */,
+				FF0C58BD2047CFD6005564AF /* TWOrderDetailModel.h */,
+				FF0C58BE2047CFD6005564AF /* ForumModel.h */,
+				FF0C58BF2047CFD6005564AF /* integralModel.h */,
+				FF0C58C02047CFD6005564AF /* TWOrderDetailModel.m */,
+				FF0C58C12047CFD6005564AF /* TWGetOrdersModel.m */,
+				FF0C58C22047CFD6005564AF /* SaveSelectorModel.m */,
+				FF0C58C32047CFD6005564AF /* ForumModel.m */,
+				FF0C58C42047CFD6005564AF /* integralModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF0C58C52047CFD6005564AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C591C2047D6DC005564AF /* TWFastButton.h */,
+				FF0C591E2047D6DC005564AF /* TWFastButton.m */,
+				FF0C591D2047D6DC005564AF /* TWTime.h */,
+				FF0C591F2047D6DC005564AF /* TWTime.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF0C58DB2047D197005564AF /* SelectNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58DC2047D197005564AF /* MySelectViewController.m */,
+				FF0C58DD2047D197005564AF /* TWHelpViewController.xib */,
+				FF0C58DE2047D197005564AF /* TWHelpViewController.m */,
+				FF0C58DF2047D197005564AF /* MySelectViewController.h */,
+				FF0C58E02047D197005564AF /* TWHelpViewController.h */,
+			);
+			path = SelectNumber;
+			sourceTree = "<group>";
+		};
+		FF0C58E12047D197005564AF /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58E22047D197005564AF /* IconViewController.xib */,
+				FF0C58E32047D197005564AF /* IconViewController.m */,
+				FF0C58E42047D197005564AF /* BindingRealInfoViewController.h */,
+				FF0C58E52047D197005564AF /* IconViewController.h */,
+				FF0C58E62047D197005564AF /* BindingRealInfoViewController.xib */,
+				FF0C58E72047D197005564AF /* BindingRealInfoViewController.m */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		FF0C58E82047D197005564AF /* SelectForum */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58E92047D197005564AF /* TWSelectNewsViewController.m */,
+				FF0C58EA2047D197005564AF /* MySelectForumController.m */,
+				FF0C58EB2047D197005564AF /* TWSelectNewsViewController.h */,
+				FF0C58EC2047D197005564AF /* MySelectForumController.h */,
+			);
+			path = SelectForum;
+			sourceTree = "<group>";
+		};
+		FF0C58ED2047D197005564AF /* ChangeInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58EE2047D197005564AF /* ChangeSignController.m */,
+				FF0C58EF2047D197005564AF /* ChangePasswordViewController.h */,
+				FF0C58F02047D197005564AF /* ChangeInfoViewController.m */,
+				FF0C58F12047D197005564AF /* UserNameController.h */,
+				FF0C58F22047D197005564AF /* ChangePwdController.m */,
+				FF0C58F32047D197005564AF /* ChangeSignController.xib */,
+				FF0C58F42047D197005564AF /* ChangeInfoViewController.h */,
+				FF0C58F52047D197005564AF /* ChangePasswordViewController.m */,
+				FF0C58F62047D197005564AF /* ChangeSignController.h */,
+				FF0C58F72047D197005564AF /* UserNameController.xib */,
+				FF0C58F82047D197005564AF /* ChangePasswordViewController.xib */,
+				FF0C58F92047D197005564AF /* ChangePwdController.xib */,
+				FF0C58FA2047D197005564AF /* ChangePwdController.h */,
+				FF0C58FB2047D197005564AF /* UserNameController.m */,
+			);
+			path = ChangeInfo;
+			sourceTree = "<group>";
+		};
+		FF0C58FC2047D198005564AF /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58FD2047D198005564AF /* BuyViewController.h */,
+				FF0C58FE2047D198005564AF /* TWBuyCPViewController.h */,
+				FF0C58FF2047D198005564AF /* TWOrderDetailViewController.h */,
+				FF0C59002047D198005564AF /* BuyViewController.m */,
+				FF0C59012047D198005564AF /* TWBuyCPViewController.m */,
+				FF0C59022047D198005564AF /* TWOrderDetailViewController.m */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
+		FF0C59032047D198005564AF /* integral */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C59042047D198005564AF /* IntegralViewController.m */,
+				FF0C59052047D198005564AF /* IntegralViewController.h */,
+			);
+			path = integral;
 			sourceTree = "<group>";
 		};
 		FF2F624620465AA900FFCAF4 /* CelebrityExplanation */ = {
@@ -688,9 +951,9 @@
 		FF2F63112046804900FFCAF4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FF2F63142046804900FFCAF4 /* LoginViewController.h */,
 				FF2F63122046804900FFCAF4 /* LoginViewController.m */,
 				FF2F63132046804900FFCAF4 /* LoginViewController.xib */,
-				FF2F63142046804900FFCAF4 /* LoginViewController.h */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -817,6 +1080,9 @@
 			isa = PBXGroup;
 			children = (
 				FF34E0442045559B003D0D59 /* Controller */,
+				FF0C58BA2047CFD6005564AF /* Models */,
+				FF0C58C52047CFD6005564AF /* Utils */,
+				FF0C58A02047CFD6005564AF /* Views */,
 			);
 			path = Myprofile;
 			sourceTree = "<group>";
@@ -826,6 +1092,12 @@
 			children = (
 				FF34E0452045559B003D0D59 /* MyprofileViewController.h */,
 				FF34E0462045559B003D0D59 /* MyprofileViewController.m */,
+				FF0C58FC2047D198005564AF /* Buy */,
+				FF0C58ED2047D197005564AF /* ChangeInfo */,
+				FF0C59032047D198005564AF /* integral */,
+				FF0C58E82047D197005564AF /* SelectForum */,
+				FF0C58DB2047D197005564AF /* SelectNumber */,
+				FF0C58E12047D197005564AF /* SubViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -952,6 +1224,7 @@
 		FF34E0672045559B003D0D59 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FF7367332047D88600644AA1 /* UIButton */,
 				FF0C58552047CCE8005564AF /* UILabel */,
 				FF2F63232046817000FFCAF4 /* NSString */,
 				FF34E0682045559B003D0D59 /* UIImage */,
@@ -1131,6 +1404,15 @@
 			path = Forecast;
 			sourceTree = "<group>";
 		};
+		FF7367332047D88600644AA1 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				FF7367342047D88600644AA1 /* UIButton+TWButton.m */,
+				FF7367352047D88600644AA1 /* UIButton+TWButton.h */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1199,27 +1481,41 @@
 				FF34E02E204554F7003D0D59 /* Assets.xcassets in Resources */,
 				FF2F629C20465AAA00FFCAF4 /* TWExplanationDetailSectionTwo.xib in Resources */,
 				FF2F62F920467E0400FFCAF4 /* TWPFDLDetailVC.xib in Resources */,
+				FF0C58CB2047CFD6005564AF /* TWSectionCell.xib in Resources */,
 				FF2F62AB20465AAA00FFCAF4 /* TWCelebrityDetailCell.xib in Resources */,
 				FF2F62A020465AAA00FFCAF4 /* TWExplanationDetailSectionOne.xib in Resources */,
+				FF0C59122047D198005564AF /* ChangeSignController.xib in Resources */,
+				FF0C59142047D198005564AF /* UserNameController.xib in Resources */,
+				FF0C58D32047CFD6005564AF /* ShowInfoCell.xib in Resources */,
 				FF2F62A620465AAA00FFCAF4 /* TWFamousListCollectionViewCell.xib in Resources */,
 				FF2F62C320465AAA00FFCAF4 /* SHRedUserCollectionCell.xib in Resources */,
 				FF2F62A220465AAA00FFCAF4 /* TWItemCell.xib in Resources */,
 				FF2F631B2046804900FFCAF4 /* LoginViewController.xib in Resources */,
 				FF2F62C520465AAA00FFCAF4 /* TWHitUserCell.xib in Resources */,
+				FF0C59072047D198005564AF /* TWHelpViewController.xib in Resources */,
+				FF0C58C82047CFD6005564AF /* TWSectionToolCell.xib in Resources */,
 				FF2F62CB20465AAA00FFCAF4 /* TWPFDetailTwoCell.xib in Resources */,
 				FF2F62B020465AAA00FFCAF4 /* TWNewsCell.xib in Resources */,
 				FF2F62CE20465AAA00FFCAF4 /* TWNoticeCell.xib in Resources */,
 				FF2F62AD20465AAA00FFCAF4 /* TWExplainListCell.xib in Resources */,
 				FF2F62A520465AAA00FFCAF4 /* TWFamousListCell.xib in Resources */,
 				FF2F62B620465AAA00FFCAF4 /* TWProfitUserCell.xib in Resources */,
+				FF0C590B2047D198005564AF /* BindingRealInfoViewController.xib in Resources */,
 				FF2F62BB20465AAA00FFCAF4 /* TWSubUserListCell.xib in Resources */,
 				FF2F62C020465AAA00FFCAF4 /* TWHotLstCell.xib in Resources */,
+				FF0C58C62047CFD6005564AF /* TWGetOrdersCell.xib in Resources */,
 				FF2F62B220465AAA00FFCAF4 /* SHDiscoverCell.xib in Resources */,
+				FF0C59162047D198005564AF /* ChangePwdController.xib in Resources */,
 				FF2F62B920465AAA00FFCAF4 /* SHSectionTwoCell.xib in Resources */,
 				FF2F62C620465AAA00FFCAF4 /* TWPFDetailOneCell.xib in Resources */,
 				FF2F62C120465AAA00FFCAF4 /* TWBuyToolView.xib in Resources */,
+				FF0C58D22047CFD6005564AF /* TWGetOrdersDetailCell.xib in Resources */,
+				FF0C58CC2047CFD6005564AF /* TWOrderDetailTwoCell.xib in Resources */,
 				FF2F62BD20465AAA00FFCAF4 /* SHSectionOneCell.xib in Resources */,
+				FF0C59152047D198005564AF /* ChangePasswordViewController.xib in Resources */,
 				FF2F62C920465AAA00FFCAF4 /* TWPFDetailListCell.xib in Resources */,
+				FF0C58D42047CFD6005564AF /* IntegralCell.xib in Resources */,
+				FF0C59092047D198005564AF /* IconViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1289,6 +1585,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2F62E9204674CB00FFCAF4 /* SHMoreCelebrityViewController.m in Sources */,
+				FF0C59132047D198005564AF /* ChangePasswordViewController.m in Sources */,
 				FF2F63372046860100FFCAF4 /* SHAllCelebrityViewController.m in Sources */,
 				FF2F62AC20465AAA00FFCAF4 /* TWCelebrityDetailHeader.m in Sources */,
 				FF0C57C42047AB62005564AF /* TWNewsNumberViewController.m in Sources */,
@@ -1296,10 +1593,12 @@
 				FF0C57C32047AB62005564AF /* TWNewsFootBallViewController.m in Sources */,
 				FF34E0D020464F9F003D0D59 /* TWExplanationDetailModel.m in Sources */,
 				FF2F62A720465AAA00FFCAF4 /* TWFamousListCollectionViewCell.m in Sources */,
+				FF0C59172047D198005564AF /* UserNameController.m in Sources */,
 				FF2F62AE20465AAA00FFCAF4 /* TWExplainListCell.m in Sources */,
 				FF2F63172046804900FFCAF4 /* TWLoginData.m in Sources */,
 				FF2F62B320465AAA00FFCAF4 /* SHDiscoverCell.m in Sources */,
 				FF2F62AA20465AAA00FFCAF4 /* TWCelebrityDetailCell.m in Sources */,
+				FF0C59062047D198005564AF /* MySelectViewController.m in Sources */,
 				FF2F62B520465AAA00FFCAF4 /* TWHitUserCell.m in Sources */,
 				FF2F63262046817C00FFCAF4 /* NSString+TFTime.m in Sources */,
 				FF2F62C720465AAA00FFCAF4 /* TWPFDetailTwoCell.m in Sources */,
@@ -1309,25 +1608,39 @@
 				FF0C57D42047AC96005564AF /* TWForecastViewController.m in Sources */,
 				FF2F62FA20467E0400FFCAF4 /* TWPFDLDetailVC.m in Sources */,
 				FF2F62EA204674CB00FFCAF4 /* SHCelebrityDatailViewController.m in Sources */,
+				FF0C58D02047CFD6005564AF /* TWSectionToolCell.m in Sources */,
+				FF0C590E2047D198005564AF /* MySelectForumController.m in Sources */,
 				FF2F62C420465AAA00FFCAF4 /* SHSectionOneCell.m in Sources */,
 				FF2F62AF20465AAA00FFCAF4 /* TWFamousListCell.m in Sources */,
 				FF34E0CB20464F9F003D0D59 /* TWPhoneFollowDetailResultsModel.m in Sources */,
 				FF2F62B720465AAA00FFCAF4 /* TWSubHLView.m in Sources */,
 				FF2F63192046804900FFCAF4 /* AccountTool.m in Sources */,
+				FF0C58D12047CFD6005564AF /* TWGetOrdersDetailCell.m in Sources */,
 				FF34E0C320464F9F003D0D59 /* SHHotlistUserListModel.m in Sources */,
 				FF2F631A2046804900FFCAF4 /* LoginViewController.m in Sources */,
 				FF34E034204554F7003D0D59 /* main.m in Sources */,
 				FF2F63352046860100FFCAF4 /* TWAllCelebrityChoose9ViewController.m in Sources */,
 				FF34E0842045559B003D0D59 /* RacesViewController.m in Sources */,
+				FF0C59212047D6DD005564AF /* TWTime.m in Sources */,
 				FF2F629E20465AAA00FFCAF4 /* TWItemCell.m in Sources */,
 				FF34E0812045559B003D0D59 /* BaseViewController.m in Sources */,
+				FF0C590C2047D198005564AF /* BindingRealInfoViewController.m in Sources */,
 				FF2F62ED2046754200FFCAF4 /* SHBaseViewController.m in Sources */,
+				FF0C58D72047CFD6005564AF /* TWGetOrdersModel.m in Sources */,
+				FF0C59102047D198005564AF /* ChangeInfoViewController.m in Sources */,
+				FF0C58DA2047CFD6005564AF /* integralModel.m in Sources */,
+				FF0C58D62047CFD6005564AF /* TWOrderDetailModel.m in Sources */,
+				FF7367362047D88600644AA1 /* UIButton+TWButton.m in Sources */,
 				FF34E0C920464F9F003D0D59 /* TWFollowUserListModel.m in Sources */,
 				FF34E0872045559B003D0D59 /* UIView+Frame.m in Sources */,
+				FF0C590F2047D198005564AF /* ChangeSignController.m in Sources */,
 				FF2F62BF20465AAA00FFCAF4 /* TWHotLstCell.m in Sources */,
+				FF0C58CF2047CFD6005564AF /* TWOrderDetailTwoCell.m in Sources */,
+				FF0C59112047D198005564AF /* ChangePwdController.m in Sources */,
 				FF2F63362046860100FFCAF4 /* TWAllCelebrityAllViewController.m in Sources */,
 				FF2F62BC20465AAA00FFCAF4 /* SHRedUserCollectionCell.m in Sources */,
 				FF34E07C2045559B003D0D59 /* ScheduleViewController.m in Sources */,
+				FF0C59192047D198005564AF /* TWBuyCPViewController.m in Sources */,
 				FF2F63182046804900FFCAF4 /* AccountModel.m in Sources */,
 				FF0C58582047CCE8005564AF /* UILabel+TWLabel.m in Sources */,
 				FF34E0CA20464F9F003D0D59 /* TWPhoneFollowDetailUsertitlesModel.m in Sources */,
@@ -1341,14 +1654,19 @@
 				FF2F62CC20465AAA00FFCAF4 /* TWSubUserListCell.m in Sources */,
 				FF34E0C220464F9F003D0D59 /* SHHotListModel.m in Sources */,
 				FF34E0CF20464F9F003D0D59 /* SHCelebrityDetailExplanlistsModel.m in Sources */,
+				FF0C59202047D6DD005564AF /* TWFastButton.m in Sources */,
 				FF34E07F2045559B003D0D59 /* MainTabBarController.m in Sources */,
 				FF34E07D2045559B003D0D59 /* MyprofileViewController.m in Sources */,
 				FF34E0802045559B003D0D59 /* MainNavigationController.m in Sources */,
 				FF2F631E2046808D00FFCAF4 /* UIImage+TFImageEffects.m in Sources */,
+				FF0C58CA2047CFD6005564AF /* MineHeaderTopView.m in Sources */,
 				FF2F62DB20465BC200FFCAF4 /* TWTitleView.m in Sources */,
 				FF2F62D120465B4600FFCAF4 /* SHCustomButton.m in Sources */,
 				FF2F62BA20465AAA00FFCAF4 /* SHRedUserView.m in Sources */,
+				FF0C58D92047CFD6005564AF /* ForumModel.m in Sources */,
+				FF0C58CE2047CFD6005564AF /* ShowInfoCell.m in Sources */,
 				FF34E0C020464F9F003D0D59 /* SHDiscoverModel.m in Sources */,
+				FF0C58CD2047CFD6005564AF /* TWGetOrdersCell.m in Sources */,
 				FF2F62DC20465BC200FFCAF4 /* TitleNameModel.m in Sources */,
 				FF2F63342046860100FFCAF4 /* TWAllCelebrityBaseBallViewController.m in Sources */,
 				FF2F62E2204671F100FFCAF4 /* TWForecastCell.m in Sources */,
@@ -1360,10 +1678,13 @@
 				FF2F62DA20465BC200FFCAF4 /* TWTitleButton.m in Sources */,
 				FF34E0D320464F9F003D0D59 /* TWForecastModel.m in Sources */,
 				FF2F62CA20465AAA00FFCAF4 /* TWPFDetailOneCell.m in Sources */,
+				FF0C590D2047D198005564AF /* TWSelectNewsViewController.m in Sources */,
 				FF34E0C420464F9F003D0D59 /* TWHitModel.m in Sources */,
 				FF34E0CE20464F9F003D0D59 /* TWFamousListsModel.m in Sources */,
 				FF2F62B820465AAA00FFCAF4 /* TWBuyToolView.m in Sources */,
 				FF0C57D12047AC96005564AF /* TWForecastDetailViewController.m in Sources */,
+				FF0C59182047D198005564AF /* BuyViewController.m in Sources */,
+				FF0C590A2047D198005564AF /* IconViewController.m in Sources */,
 				FF2F62BE20465AAA00FFCAF4 /* TWProfitUserCell.m in Sources */,
 				FF34E026204554F7003D0D59 /* AppDelegate.m in Sources */,
 				FF34E0C720464F9F003D0D59 /* SHRedUserModel.m in Sources */,
@@ -1372,10 +1693,14 @@
 				FF2F62F820467E0400FFCAF4 /* TWPhonefollowDetailVC.m in Sources */,
 				FF34E0C620464F9F003D0D59 /* TWProfitModel.m in Sources */,
 				FF2F62CD20465AAA00FFCAF4 /* TWNoticeCell.m in Sources */,
+				FF0C58D52047CFD6005564AF /* LoginOutCell.m in Sources */,
+				FF0C59082047D198005564AF /* TWHelpViewController.m in Sources */,
 				FF34E0C520464F9F003D0D59 /* TWHotListDetail.m in Sources */,
 				FF34E08D20464F49003D0D59 /* SHNetworkTool.m in Sources */,
+				FF0C58C72047CFD6005564AF /* IntegralCell.m in Sources */,
 				FF2F62A320465AAA00FFCAF4 /* TWAllCelebrityCell.m in Sources */,
 				FF2F63152046804900FFCAF4 /* TWLoginNetworkTool.m in Sources */,
+				FF0C591A2047D198005564AF /* TWOrderDetailViewController.m in Sources */,
 				FF2F62C220465AAA00FFCAF4 /* TWMultipleButton.m in Sources */,
 				FF34E0C120464F9F003D0D59 /* TWUserModel.m in Sources */,
 				FF0C57C62047AB62005564AF /* TWNewsViewController.m in Sources */,
@@ -1383,11 +1708,14 @@
 				FF0C57C52047AB62005564AF /* TWNewsDetailViewController.m in Sources */,
 				FF2F63382046860100FFCAF4 /* TWAllCelebrityNumberViewController.m in Sources */,
 				FF2F63162046804900FFCAF4 /* NSString+MatchPhoneNumber.m in Sources */,
+				FF0C58C92047CFD6005564AF /* TWSectionCell.m in Sources */,
 				FF0C57D22047AC96005564AF /* TWFootballViewController.m in Sources */,
+				FF0C591B2047D198005564AF /* IntegralViewController.m in Sources */,
 				FF34E0CC20464F9F003D0D59 /* TWPhoneFollowDetailResulltModel.m in Sources */,
 				FF0C57D32047AC96005564AF /* TWbasketballViewController.m in Sources */,
 				FF34E07E2045559B003D0D59 /* DiscoveryViewController.m in Sources */,
 				FF2F62A120465AAA00FFCAF4 /* TWPlanforecastitemTableView.m in Sources */,
+				FF0C58D82047CFD6005564AF /* SaveSelectorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

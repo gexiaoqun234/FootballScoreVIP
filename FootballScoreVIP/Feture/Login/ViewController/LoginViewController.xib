@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="_05CP" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="FootballScoreVIP" customModuleProvider="target">
             <connections>
                 <outlet property="backgroundImageView" destination="ojp-7A-Wsl" id="msj-El-nok"/>
                 <outlet property="backgroundView" destination="kjL-iA-3XC" id="ECc-qE-pz2"/>
@@ -35,7 +35,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tw_logBg" translatesAutoresizingMaskIntoConstraints="NO" id="ojp-7A-Wsl">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginbg1" translatesAutoresizingMaskIntoConstraints="NO" id="ojp-7A-Wsl">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" red="0.55686274509803924" green="0.10588235294117647" blue="0.12941176470588234" alpha="0.0" colorSpace="calibratedRGB"/>
                 </imageView>
@@ -381,6 +381,6 @@
     <resources>
         <image name="Action_close_white_44x44_" width="44" height="44"/>
         <image name="ic_player_seek_backward_30x30_" width="30" height="30"/>
-        <image name="tw_logBg" width="375" height="812"/>
+        <image name="loginbg1" width="414" height="736"/>
     </resources>
 </document>

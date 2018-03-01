@@ -6,8 +6,8 @@
 //  Copyright © 2018年 MG. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SHBaseViewController.h"
 
-@interface MyprofileViewController : UIViewController
+@interface MyprofileViewController : SHBaseViewController
 
 @end
