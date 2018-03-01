@@ -14,12 +14,14 @@
 
 @interface ScheduleViewController ()<TWExplainListCellDelegate>
 @property (nonatomic, strong) NSMutableArray <TWExplainListModel *> * explainListArray;
+@property (nonatomic, assign) BOOL showEmpty;
 @end
 
 @implementation ScheduleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _showEmpty = NO;
     [self.view addSubview:self.tableView];
     [self setupScheduleData];
 }
@@ -38,9 +40,11 @@
         [self.tableView.mj_header endRefreshing];
         [SVProgressHUD dismiss];
         self.loading = NO;
+        _showEmpty = NO;
     } failure:^(NSError *error) {
         [self.tableView.mj_header endRefreshing];
         [SVProgressHUD dismiss];
+        _showEmpty = YES;
     }];
 }
 
@@ -69,9 +73,13 @@
     [self.navigationController pushViewController:explanationDetailViewController animated:YES];
 }
 
+// 是否显示
+- (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView{
+    return _showEmpty;
+}
+
 - (void)emptyDataSet:(UIScrollView *)scrollView didTapButton:(UIButton *)button{
     [super emptyDataSet:scrollView didTapButton:button];
-    
     [self.tableView.mj_header beginRefreshing];
 }
 

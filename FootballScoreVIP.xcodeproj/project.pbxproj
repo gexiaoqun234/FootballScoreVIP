@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		27CF9523D1E93891992F7CDB /* libPods-FootballScoreVIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3A0B49ED1E49AC352E3A43 /* libPods-FootballScoreVIP.a */; };
+		FF0C57C32047AB62005564AF /* TWNewsFootBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57B92047AB62005564AF /* TWNewsFootBallViewController.m */; };
+		FF0C57C42047AB62005564AF /* TWNewsNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57BC2047AB62005564AF /* TWNewsNumberViewController.m */; };
+		FF0C57C52047AB62005564AF /* TWNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57BD2047AB62005564AF /* TWNewsDetailViewController.m */; };
+		FF0C57C62047AB62005564AF /* TWNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57BF2047AB62005564AF /* TWNewsViewController.m */; };
+		FF0C57C72047AB62005564AF /* TWNewsBaseBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57C12047AB62005564AF /* TWNewsBaseBallViewController.m */; };
+		FF0C57D12047AC96005564AF /* TWForecastDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57C92047AC96005564AF /* TWForecastDetailViewController.m */; };
+		FF0C57D22047AC96005564AF /* TWFootballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57CA2047AC96005564AF /* TWFootballViewController.m */; };
+		FF0C57D32047AC96005564AF /* TWbasketballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57CB2047AC96005564AF /* TWbasketballViewController.m */; };
+		FF0C57D42047AC96005564AF /* TWForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C57D02047AC96005564AF /* TWForecastViewController.m */; };
+		FF0C58582047CCE8005564AF /* UILabel+TWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0C58572047CCE8005564AF /* UILabel+TWLabel.m */; };
 		FF2F629C20465AAA00FFCAF4 /* TWExplanationDetailSectionTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2F624A20465AA900FFCAF4 /* TWExplanationDetailSectionTwo.xib */; };
 		FF2F629D20465AAA00FFCAF4 /* TWExplanationDetailSectionOne.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F624B20465AA900FFCAF4 /* TWExplanationDetailSectionOne.m */; };
 		FF2F629E20465AAA00FFCAF4 /* TWItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F624C20465AA900FFCAF4 /* TWItemCell.m */; };
@@ -72,8 +82,6 @@
 		FF2F62F820467E0400FFCAF4 /* TWPhonefollowDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F62F320467E0300FFCAF4 /* TWPhonefollowDetailVC.m */; };
 		FF2F62F920467E0400FFCAF4 /* TWPFDLDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2F62F420467E0300FFCAF4 /* TWPFDLDetailVC.xib */; };
 		FF2F62FA20467E0400FFCAF4 /* TWPFDLDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F62F520467E0300FFCAF4 /* TWPFDLDetailVC.m */; };
-		FF2F62FE20467F2F00FFCAF4 /* TWForecastDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F62FC20467F2F00FFCAF4 /* TWForecastDetailViewController.m */; };
-		FF2F630220467FCD00FFCAF4 /* TWNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F630020467FCD00FFCAF4 /* TWNewsDetailViewController.m */; };
 		FF2F63152046804900FFCAF4 /* TWLoginNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F63052046804900FFCAF4 /* TWLoginNetworkTool.m */; };
 		FF2F63162046804900FFCAF4 /* NSString+MatchPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F63092046804900FFCAF4 /* NSString+MatchPhoneNumber.m */; };
 		FF2F63172046804900FFCAF4 /* TWLoginData.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2F630A2046804900FFCAF4 /* TWLoginData.m */; };
@@ -134,6 +142,26 @@
 		1A3A0B49ED1E49AC352E3A43 /* libPods-FootballScoreVIP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FootballScoreVIP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7661238FA5E96F570CC44BBA /* Pods-FootballScoreVIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballScoreVIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-FootballScoreVIP/Pods-FootballScoreVIP.release.xcconfig"; sourceTree = "<group>"; };
 		D0BE71F49066E012855CD14D /* Pods-FootballScoreVIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballScoreVIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FootballScoreVIP/Pods-FootballScoreVIP.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0C57B92047AB62005564AF /* TWNewsFootBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNewsFootBallViewController.m; sourceTree = "<group>"; };
+		FF0C57BA2047AB62005564AF /* TWNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNewsViewController.h; sourceTree = "<group>"; };
+		FF0C57BB2047AB62005564AF /* TWNewsBaseBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNewsBaseBallViewController.h; sourceTree = "<group>"; };
+		FF0C57BC2047AB62005564AF /* TWNewsNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNewsNumberViewController.m; sourceTree = "<group>"; };
+		FF0C57BD2047AB62005564AF /* TWNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNewsDetailViewController.m; sourceTree = "<group>"; };
+		FF0C57BE2047AB62005564AF /* TWNewsFootBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNewsFootBallViewController.h; sourceTree = "<group>"; };
+		FF0C57BF2047AB62005564AF /* TWNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNewsViewController.m; sourceTree = "<group>"; };
+		FF0C57C02047AB62005564AF /* TWNewsNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNewsNumberViewController.h; sourceTree = "<group>"; };
+		FF0C57C12047AB62005564AF /* TWNewsBaseBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNewsBaseBallViewController.m; sourceTree = "<group>"; };
+		FF0C57C22047AB62005564AF /* TWNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNewsDetailViewController.h; sourceTree = "<group>"; };
+		FF0C57C92047AC96005564AF /* TWForecastDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWForecastDetailViewController.m; sourceTree = "<group>"; };
+		FF0C57CA2047AC96005564AF /* TWFootballViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFootballViewController.m; sourceTree = "<group>"; };
+		FF0C57CB2047AC96005564AF /* TWbasketballViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWbasketballViewController.m; sourceTree = "<group>"; };
+		FF0C57CC2047AC96005564AF /* TWForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWForecastViewController.h; sourceTree = "<group>"; };
+		FF0C57CD2047AC96005564AF /* TWFootballViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFootballViewController.h; sourceTree = "<group>"; };
+		FF0C57CE2047AC96005564AF /* TWForecastDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWForecastDetailViewController.h; sourceTree = "<group>"; };
+		FF0C57CF2047AC96005564AF /* TWbasketballViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWbasketballViewController.h; sourceTree = "<group>"; };
+		FF0C57D02047AC96005564AF /* TWForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWForecastViewController.m; sourceTree = "<group>"; };
+		FF0C58562047CCE8005564AF /* UILabel+TWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TWLabel.h"; sourceTree = "<group>"; };
+		FF0C58572047CCE8005564AF /* UILabel+TWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TWLabel.m"; sourceTree = "<group>"; };
 		FF2F624820465AA900FFCAF4 /* TWExplanationDetailSectionTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWExplanationDetailSectionTwo.h; sourceTree = "<group>"; };
 		FF2F624920465AA900FFCAF4 /* TWPlanforecastitemTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPlanforecastitemTableView.h; sourceTree = "<group>"; };
 		FF2F624A20465AA900FFCAF4 /* TWExplanationDetailSectionTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWExplanationDetailSectionTwo.xib; sourceTree = "<group>"; };
@@ -237,10 +265,6 @@
 		FF2F62F520467E0300FFCAF4 /* TWPFDLDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPFDLDetailVC.m; sourceTree = "<group>"; };
 		FF2F62F620467E0300FFCAF4 /* TWPhonefollowDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhonefollowDetailVC.h; sourceTree = "<group>"; };
 		FF2F62F720467E0300FFCAF4 /* TWPFDLDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPFDLDetailVC.h; sourceTree = "<group>"; };
-		FF2F62FC20467F2F00FFCAF4 /* TWForecastDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWForecastDetailViewController.m; sourceTree = "<group>"; };
-		FF2F62FD20467F2F00FFCAF4 /* TWForecastDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWForecastDetailViewController.h; sourceTree = "<group>"; };
-		FF2F630020467FCD00FFCAF4 /* TWNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNewsDetailViewController.m; sourceTree = "<group>"; };
-		FF2F630120467FCD00FFCAF4 /* TWNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNewsDetailViewController.h; sourceTree = "<group>"; };
 		FF2F63052046804900FFCAF4 /* TWLoginNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLoginNetworkTool.m; sourceTree = "<group>"; };
 		FF2F63062046804900FFCAF4 /* TWLoginData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLoginData.h; sourceTree = "<group>"; };
 		FF2F63072046804900FFCAF4 /* NSString+MatchPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MatchPhoneNumber.h"; sourceTree = "<group>"; };
@@ -378,6 +402,47 @@
 				1A3A0B49ED1E49AC352E3A43 /* libPods-FootballScoreVIP.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF0C57B82047AB62005564AF /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C57B92047AB62005564AF /* TWNewsFootBallViewController.m */,
+				FF0C57BA2047AB62005564AF /* TWNewsViewController.h */,
+				FF0C57BB2047AB62005564AF /* TWNewsBaseBallViewController.h */,
+				FF0C57BC2047AB62005564AF /* TWNewsNumberViewController.m */,
+				FF0C57BD2047AB62005564AF /* TWNewsDetailViewController.m */,
+				FF0C57BE2047AB62005564AF /* TWNewsFootBallViewController.h */,
+				FF0C57BF2047AB62005564AF /* TWNewsViewController.m */,
+				FF0C57C02047AB62005564AF /* TWNewsNumberViewController.h */,
+				FF0C57C12047AB62005564AF /* TWNewsBaseBallViewController.m */,
+				FF0C57C22047AB62005564AF /* TWNewsDetailViewController.h */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		FF0C57C82047AC96005564AF /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C57C92047AC96005564AF /* TWForecastDetailViewController.m */,
+				FF0C57CA2047AC96005564AF /* TWFootballViewController.m */,
+				FF0C57CB2047AC96005564AF /* TWbasketballViewController.m */,
+				FF0C57CC2047AC96005564AF /* TWForecastViewController.h */,
+				FF0C57CD2047AC96005564AF /* TWFootballViewController.h */,
+				FF0C57CE2047AC96005564AF /* TWForecastDetailViewController.h */,
+				FF0C57CF2047AC96005564AF /* TWbasketballViewController.h */,
+				FF0C57D02047AC96005564AF /* TWForecastViewController.m */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		FF0C58552047CCE8005564AF /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C58562047CCE8005564AF /* UILabel+TWLabel.h */,
+				FF0C58572047CCE8005564AF /* UILabel+TWLabel.m */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 		FF2F624620465AA900FFCAF4 /* CelebrityExplanation */ = {
@@ -560,8 +625,8 @@
 		FF2F62EE2046758C00FFCAF4 /* ExplanationDetail */ = {
 			isa = PBXGroup;
 			children = (
-				FF2F62EF2046758C00FFCAF4 /* SHExplanationDetailViewController.m */,
 				FF2F62F02046758C00FFCAF4 /* SHExplanationDetailViewController.h */,
+				FF2F62EF2046758C00FFCAF4 /* SHExplanationDetailViewController.m */,
 			);
 			path = ExplanationDetail;
 			sourceTree = "<group>";
@@ -578,24 +643,6 @@
 			path = phonefollowDetail;
 			sourceTree = "<group>";
 		};
-		FF2F62FB20467F2F00FFCAF4 /* ForecastDetail */ = {
-			isa = PBXGroup;
-			children = (
-				FF2F62FC20467F2F00FFCAF4 /* TWForecastDetailViewController.m */,
-				FF2F62FD20467F2F00FFCAF4 /* TWForecastDetailViewController.h */,
-			);
-			path = ForecastDetail;
-			sourceTree = "<group>";
-		};
-		FF2F62FF20467FCD00FFCAF4 /* NewsDeatil */ = {
-			isa = PBXGroup;
-			children = (
-				FF2F630020467FCD00FFCAF4 /* TWNewsDetailViewController.m */,
-				FF2F630120467FCD00FFCAF4 /* TWNewsDetailViewController.h */,
-			);
-			path = NewsDeatil;
-			sourceTree = "<group>";
-		};
 		FF2F63032046804900FFCAF4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -610,12 +657,12 @@
 		FF2F63042046804900FFCAF4 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				FF2F63052046804900FFCAF4 /* TWLoginNetworkTool.m */,
 				FF2F63062046804900FFCAF4 /* TWLoginData.h */,
+				FF2F630A2046804900FFCAF4 /* TWLoginData.m */,
+				FF2F63052046804900FFCAF4 /* TWLoginNetworkTool.m */,
 				FF2F63072046804900FFCAF4 /* NSString+MatchPhoneNumber.h */,
 				FF2F63082046804900FFCAF4 /* TWLoginNetworkTool.h */,
 				FF2F63092046804900FFCAF4 /* NSString+MatchPhoneNumber.m */,
-				FF2F630A2046804900FFCAF4 /* TWLoginData.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -669,18 +716,18 @@
 		FF2F63272046860100FFCAF4 /* AllCelebrity */ = {
 			isa = PBXGroup;
 			children = (
+				FF2F632F2046860100FFCAF4 /* TWAllCelebrityBaseBallViewController.h */,
 				FF2F63282046860100FFCAF4 /* TWAllCelebrityBaseBallViewController.m */,
-				FF2F63292046860100FFCAF4 /* TWAllCelebrityNumberViewController.h */,
+				FF2F63312046860100FFCAF4 /* TWAllCelebrityChoose9ViewController.h */,
 				FF2F632A2046860100FFCAF4 /* TWAllCelebrityChoose9ViewController.m */,
+				FF2F63302046860100FFCAF4 /* TWAllCelebrityAllViewController.h */,
 				FF2F632B2046860100FFCAF4 /* TWAllCelebrityAllViewController.m */,
 				FF2F632C2046860100FFCAF4 /* TWAllCelebrityFootballViewController.h */,
-				FF2F632D2046860100FFCAF4 /* SHAllCelebrityViewController.m */,
-				FF2F632E2046860100FFCAF4 /* TWAllCelebrityNumberViewController.m */,
-				FF2F632F2046860100FFCAF4 /* TWAllCelebrityBaseBallViewController.h */,
-				FF2F63302046860100FFCAF4 /* TWAllCelebrityAllViewController.h */,
-				FF2F63312046860100FFCAF4 /* TWAllCelebrityChoose9ViewController.h */,
 				FF2F63322046860100FFCAF4 /* TWAllCelebrityFootballViewController.m */,
 				FF2F63332046860100FFCAF4 /* SHAllCelebrityViewController.h */,
+				FF2F632D2046860100FFCAF4 /* SHAllCelebrityViewController.m */,
+				FF2F63292046860100FFCAF4 /* TWAllCelebrityNumberViewController.h */,
+				FF2F632E2046860100FFCAF4 /* TWAllCelebrityNumberViewController.m */,
 			);
 			path = AllCelebrity;
 			sourceTree = "<group>";
@@ -769,19 +816,9 @@
 		FF34E0422045559B003D0D59 /* Myprofile */ = {
 			isa = PBXGroup;
 			children = (
-				FF34E0432045559B003D0D59 /* ViewModel */,
 				FF34E0442045559B003D0D59 /* Controller */,
-				FF34E0472045559B003D0D59 /* Model */,
-				FF34E0482045559B003D0D59 /* View */,
 			);
 			path = Myprofile;
-			sourceTree = "<group>";
-		};
-		FF34E0432045559B003D0D59 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FF34E0442045559B003D0D59 /* Controller */ = {
@@ -793,26 +830,10 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		FF34E0472045559B003D0D59 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FF34E0482045559B003D0D59 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		FF34E0492045559B003D0D59 /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
 				FF34E04B2045559B003D0D59 /* Controller */,
-				FF34E04E2045559B003D0D59 /* Model */,
-				FF34E04F2045559B003D0D59 /* View */,
 			);
 			path = Discovery;
 			sourceTree = "<group>";
@@ -824,20 +845,6 @@
 				FF34E04C2045559B003D0D59 /* DiscoveryViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		FF34E04E2045559B003D0D59 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FF34E04F2045559B003D0D59 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		FF34E0502045559B003D0D59 /* Main */ = {
@@ -886,8 +893,8 @@
 			children = (
 				FF34E05E2045559B003D0D59 /* RacesViewController.h */,
 				FF34E0602045559B003D0D59 /* RacesViewController.m */,
-				FF2F62FF20467FCD00FFCAF4 /* NewsDeatil */,
-				FF2F62FB20467F2F00FFCAF4 /* ForecastDetail */,
+				FF0C57C82047AC96005564AF /* Forecast */,
+				FF0C57B82047AB62005564AF /* News */,
 				FF2F62F220467E0300FFCAF4 /* phonefollowDetail */,
 				FF2F62EE2046758C00FFCAF4 /* ExplanationDetail */,
 				FF2F62E6204674CA00FFCAF4 /* CelebrityDatail */,
@@ -945,6 +952,7 @@
 		FF34E0672045559B003D0D59 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FF0C58552047CCE8005564AF /* UILabel */,
 				FF2F63232046817000FFCAF4 /* NSString */,
 				FF34E0682045559B003D0D59 /* UIImage */,
 				FF34E06B2045559B003D0D59 /* UIView */,
@@ -1283,7 +1291,9 @@
 				FF2F62E9204674CB00FFCAF4 /* SHMoreCelebrityViewController.m in Sources */,
 				FF2F63372046860100FFCAF4 /* SHAllCelebrityViewController.m in Sources */,
 				FF2F62AC20465AAA00FFCAF4 /* TWCelebrityDetailHeader.m in Sources */,
+				FF0C57C42047AB62005564AF /* TWNewsNumberViewController.m in Sources */,
 				FF34E0C820464F9F003D0D59 /* TWPhoneFollowDetailModel.m in Sources */,
+				FF0C57C32047AB62005564AF /* TWNewsFootBallViewController.m in Sources */,
 				FF34E0D020464F9F003D0D59 /* TWExplanationDetailModel.m in Sources */,
 				FF2F62A720465AAA00FFCAF4 /* TWFamousListCollectionViewCell.m in Sources */,
 				FF2F62AE20465AAA00FFCAF4 /* TWExplainListCell.m in Sources */,
@@ -1296,6 +1306,7 @@
 				FF2F629F20465AAA00FFCAF4 /* TWExplanationDetailSectionTwo.m in Sources */,
 				FF2F63392046860100FFCAF4 /* TWAllCelebrityFootballViewController.m in Sources */,
 				FF34E0852045559B003D0D59 /* TWNewsModel.m in Sources */,
+				FF0C57D42047AC96005564AF /* TWForecastViewController.m in Sources */,
 				FF2F62FA20467E0400FFCAF4 /* TWPFDLDetailVC.m in Sources */,
 				FF2F62EA204674CB00FFCAF4 /* SHCelebrityDatailViewController.m in Sources */,
 				FF2F62C420465AAA00FFCAF4 /* SHSectionOneCell.m in Sources */,
@@ -1318,6 +1329,7 @@
 				FF2F62BC20465AAA00FFCAF4 /* SHRedUserCollectionCell.m in Sources */,
 				FF34E07C2045559B003D0D59 /* ScheduleViewController.m in Sources */,
 				FF2F63182046804900FFCAF4 /* AccountModel.m in Sources */,
+				FF0C58582047CCE8005564AF /* UILabel+TWLabel.m in Sources */,
 				FF34E0CA20464F9F003D0D59 /* TWPhoneFollowDetailUsertitlesModel.m in Sources */,
 				FF34E08A2045559B003D0D59 /* ExternData.m in Sources */,
 				FF34E0882045559B003D0D59 /* UIViewController+Extention.m in Sources */,
@@ -1331,14 +1343,12 @@
 				FF34E0CF20464F9F003D0D59 /* SHCelebrityDetailExplanlistsModel.m in Sources */,
 				FF34E07F2045559B003D0D59 /* MainTabBarController.m in Sources */,
 				FF34E07D2045559B003D0D59 /* MyprofileViewController.m in Sources */,
-				FF2F62FE20467F2F00FFCAF4 /* TWForecastDetailViewController.m in Sources */,
 				FF34E0802045559B003D0D59 /* MainNavigationController.m in Sources */,
 				FF2F631E2046808D00FFCAF4 /* UIImage+TFImageEffects.m in Sources */,
 				FF2F62DB20465BC200FFCAF4 /* TWTitleView.m in Sources */,
 				FF2F62D120465B4600FFCAF4 /* SHCustomButton.m in Sources */,
 				FF2F62BA20465AAA00FFCAF4 /* SHRedUserView.m in Sources */,
 				FF34E0C020464F9F003D0D59 /* SHDiscoverModel.m in Sources */,
-				FF2F630220467FCD00FFCAF4 /* TWNewsDetailViewController.m in Sources */,
 				FF2F62DC20465BC200FFCAF4 /* TitleNameModel.m in Sources */,
 				FF2F63342046860100FFCAF4 /* TWAllCelebrityBaseBallViewController.m in Sources */,
 				FF2F62E2204671F100FFCAF4 /* TWForecastCell.m in Sources */,
@@ -1353,9 +1363,11 @@
 				FF34E0C420464F9F003D0D59 /* TWHitModel.m in Sources */,
 				FF34E0CE20464F9F003D0D59 /* TWFamousListsModel.m in Sources */,
 				FF2F62B820465AAA00FFCAF4 /* TWBuyToolView.m in Sources */,
+				FF0C57D12047AC96005564AF /* TWForecastDetailViewController.m in Sources */,
 				FF2F62BE20465AAA00FFCAF4 /* TWProfitUserCell.m in Sources */,
 				FF34E026204554F7003D0D59 /* AppDelegate.m in Sources */,
 				FF34E0C720464F9F003D0D59 /* SHRedUserModel.m in Sources */,
+				FF0C57C72047AB62005564AF /* TWNewsBaseBallViewController.m in Sources */,
 				FF34E0D120464F9F003D0D59 /* TWExplainListModel.m in Sources */,
 				FF2F62F820467E0400FFCAF4 /* TWPhonefollowDetailVC.m in Sources */,
 				FF34E0C620464F9F003D0D59 /* TWProfitModel.m in Sources */,
@@ -1366,10 +1378,14 @@
 				FF2F63152046804900FFCAF4 /* TWLoginNetworkTool.m in Sources */,
 				FF2F62C220465AAA00FFCAF4 /* TWMultipleButton.m in Sources */,
 				FF34E0C120464F9F003D0D59 /* TWUserModel.m in Sources */,
+				FF0C57C62047AB62005564AF /* TWNewsViewController.m in Sources */,
 				FF34E0892045559B003D0D59 /* NetworkManager.m in Sources */,
+				FF0C57C52047AB62005564AF /* TWNewsDetailViewController.m in Sources */,
 				FF2F63382046860100FFCAF4 /* TWAllCelebrityNumberViewController.m in Sources */,
 				FF2F63162046804900FFCAF4 /* NSString+MatchPhoneNumber.m in Sources */,
+				FF0C57D22047AC96005564AF /* TWFootballViewController.m in Sources */,
 				FF34E0CC20464F9F003D0D59 /* TWPhoneFollowDetailResulltModel.m in Sources */,
+				FF0C57D32047AC96005564AF /* TWbasketballViewController.m in Sources */,
 				FF34E07E2045559B003D0D59 /* DiscoveryViewController.m in Sources */,
 				FF2F62A120465AAA00FFCAF4 /* TWPlanforecastitemTableView.m in Sources */,
 			);

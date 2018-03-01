@@ -18,6 +18,8 @@
 #import "TWPhonefollowDetailVC.h"
 #import "TWForecastDetailViewController.h"
 #import "TWNewsDetailViewController.h"
+#import "TWNewsViewController.h"
+#import "TWForecastViewController.h"
 
 @interface RacesViewController ()
 @property (nonatomic, strong) NSMutableArray <TWFamousListsModel *> * famousListArray;
@@ -228,13 +230,24 @@
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
-    return [UIView new];
+    if (section == 2) {
+        return [self createFooterView:@"———— 查看全部资讯 ————" tag:11];
+    } else if (section == 3) {
+        return [self createFooterView:@"———— 查看更多竞彩 ————" tag:22];
+    } else {
+        return [UIView new];
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    return 10;
+    if (section == 2) {
+        return TableViewSectionHeaderHeight + 10;
+    } else if (section == 3) {
+        return TableViewSectionHeaderHeight + 10;
+    } else {
+        return 10;
+    }
 }
-
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 2) {
@@ -311,6 +324,40 @@
     return bgView;
 }
 
+- (UIView *)createFooterView:(NSString *)title tag:(NSInteger)tag{
+    UIView * bgView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, TWScreenWidth, TableViewSectionHeaderHeight + 10)];
+    bgView.backgroundColor = [UIColor clearColor];
+    
+    UIView * topView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, TWScreenWidth, TableViewSectionHeaderHeight)];
+    topView.backgroundColor = [UIColor whiteColor];
+    [bgView addSubview:topView];
+    
+    // button
+    UIButton * showMoreButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [showMoreButton setTitle:title forState:UIControlStateNormal];
+    [showMoreButton setTitleColor:TWThemeColor forState:UIControlStateNormal];
+    showMoreButton.titleLabel.font = [UIFont boldSystemFontOfSize:15];
+    [topView addSubview:showMoreButton];
+    showMoreButton.tag = tag;
+    [showMoreButton addTarget:self action:@selector(showMoreButtonDidClick:) forControlEvents:UIControlEventTouchUpInside];
+    [showMoreButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(topView);
+    }];
+    return bgView;
+}
+
+- (void)showMoreButtonDidClick:(UIButton *)button{
+    if (button.tag == 11) {
+        // 足球资讯
+        TWNewsViewController * newsVC = [[TWNewsViewController alloc]init];
+        [self.navigationController pushViewController:newsVC animated:YES];
+    } else if (button.tag == 22) {
+        // 足球竞彩
+        TWForecastViewController * forecastVC = [[TWForecastViewController alloc]init];
+        [self.navigationController pushViewController:forecastVC animated:YES];
+    }
+}
+
 // 热门跟单标题栏
 - (UIView *)hotListHeaderView{
     if (!_hotListHeaderView) {
@@ -341,7 +388,7 @@
         _redUserHeaderView.backgroundColor = [UIColor whiteColor];
         // 红人
         UILabel * redLabel = [[UILabel alloc]init];
-        redLabel.text = @"红人";
+        redLabel.text = @"—红人—";
         redLabel.textColor = TWThemeColor;
         redLabel.font = [UIFont boldSystemFontOfSize:15];
         [_redUserHeaderView addSubview:redLabel];

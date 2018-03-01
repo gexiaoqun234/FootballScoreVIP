@@ -29,7 +29,6 @@ static NSString * const TWExplanationDetailSectionTwoID = @"TWExplanationDetailS
         _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-//        _tableView.backgroundColor = [UIColor clearColor];
         _tableView.backgroundColor = TWColorRGB(242, 242, 242);
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.scrollIndicatorInsets = _tableView.contentInset;
@@ -41,6 +40,7 @@ static NSString * const TWExplanationDetailSectionTwoID = @"TWExplanationDetailS
         } else {
             self.automaticallyAdjustsScrollViewInsets = NO;
         }
+//        _tableView.contentInset = UIEdgeInsetsMake(TWNaviHeight, 0, 0, 0);
         [_tableView registerNib:[UINib nibWithNibName:@"TWExplanationDetailSectionOne" bundle:nil] forCellReuseIdentifier:TWExplanationDetailSectionOneID];
         [_tableView registerNib:[UINib nibWithNibName:@"TWExplanationDetailSectionTwo" bundle:nil] forCellReuseIdentifier:TWExplanationDetailSectionTwoID];
         _tableView.tableFooterView = self.webView;
@@ -167,9 +167,6 @@ static NSString * const TWExplanationDetailSectionTwoID = @"TWExplanationDetailS
     return 0.1;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end
