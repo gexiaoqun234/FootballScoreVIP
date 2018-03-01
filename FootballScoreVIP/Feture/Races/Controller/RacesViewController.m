@@ -28,8 +28,9 @@
 @property (nonatomic, strong) UIView * redUserHeaderView;
 @property (nonatomic, strong) UIView * hotListHeaderView;
 @property (nonatomic, strong) NSMutableArray <TWForecastModel *> * forecastArray;
-@property (nonatomic, strong) NSArray <TWNewsModel *> * newsModelArray;
+@property (nonatomic, strong) NSMutableArray <TWNewsModel *> * newsModelArray;
 @property (nonatomic, assign) BOOL showSectionOne;
+@property (nonatomic, assign) BOOL showEmptySet;
 @end
 
 @implementation RacesViewController
@@ -40,6 +41,24 @@
     [self.view addSubview:self.tableView];
     [self setupRefresh];
     [self configControl];
+    
+    // TEST
+    /**
+    UIButton * leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [leftButton setTitle:@"清空" forState:UIControlStateNormal];
+    [[leftButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+        [_famousListArray removeAllObjects];
+        [_redUsersArray removeAllObjects];
+        [_forecastArray removeAllObjects];
+        [_newsModelArray removeAllObjects];
+        _showSectionOne = NO;
+        _showEmptySet = YES;
+        self.loading = NO;
+        [self.tableView reloadData];
+    }];
+    [leftButton sizeToFit];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:leftButton];
+     */
 }
 
 - (void)setupRefresh{
@@ -51,7 +70,7 @@
 // 下拉刷新数据
 - (void)loadNewData{
     
-    [SVProgressHUD show];
+//    [SVProgressHUD show];
     
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
@@ -122,11 +141,23 @@
         dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
         dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
         dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
-        _showSectionOne = YES;
+        
+        // 有可能有没拿到数据的数组
+        // 只要有一组数据没请求完成就代表失败了
+        if (_forecastArray.count == 0 || _redUsersArray.count == 0 || _forecastArray.count == 0 || _newsModelArray.count == 0) {
+            _showSectionOne = NO;          // 不展示标题
+            _showEmptySet = YES;            // 展示占位
+            TWLog(@"请求失败");
+            self.loading = NO;
+        } else {
+            TWLog(@"请求成功");
+            _showSectionOne = YES;          // 展示标题
+            _showEmptySet = NO;              // 不展示占位
+        }
+        // 无论成功还是失败这两个都要停止
         [self.tableView reloadData];
         [self.tableView.mj_header endRefreshing];
-        self.loading = NO;
-        [SVProgressHUD dismiss];
+//        [SVProgressHUD dismiss];
     });
 }
 
@@ -134,7 +165,7 @@
 - (TWFamousListsModel *)moreModel{
     if (!_moreModel) {
         _moreModel = [[TWFamousListsModel alloc]init];
-        _moreModel.authName = @"查看更多";
+        _moreModel.authName = @"【查看更多】";
     }
     return _moreModel;
 }
@@ -142,11 +173,7 @@
 
 #pragma mark - ========代理=======
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-//    if (_showSectionOne) {
-        return 4;
-//    } else {
-//        return 0;
-//    }
+    return _showSectionOne ? 4 : 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -176,7 +203,6 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-
     if (indexPath.section == 0) {
         // 1 专家名人
         TWFamousListCell * cell = [tableView dequeueReusableCellWithIdentifier:TWFamousListCellID forIndexPath:indexPath];
@@ -263,13 +289,14 @@
     }
 }
 
+- (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView{
+    return _showEmptySet;
+}
 
 // emptyDataSet点击按钮重新加载数据
 - (void)emptyDataSet:(UIScrollView *)scrollView didTapButton:(UIButton *)button{
     [super emptyDataSet:scrollView didTapButton:button];
-    
     // 加载数据
-//    [self setupRefresh];
     [self.tableView.mj_header beginRefreshing];
 }
 
@@ -414,5 +441,14 @@
     return _redUserHeaderView;
 }
 
+#pragma mark - ========setter=======
+- (void)setShowEmptySet:(BOOL)showEmptySet{
+    if (self.showEmptySet == showEmptySet) {
+        return;
+    }
+    _showEmptySet = showEmptySet;
+    // 每次 loading 状态被修改，就刷新空白页面。
+    [self.tableView reloadEmptyDataSet];
+}
 
 @end

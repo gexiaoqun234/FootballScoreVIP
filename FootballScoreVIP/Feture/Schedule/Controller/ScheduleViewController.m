@@ -14,16 +14,29 @@
 
 @interface ScheduleViewController ()<TWExplainListCellDelegate>
 @property (nonatomic, strong) NSMutableArray <TWExplainListModel *> * explainListArray;
-@property (nonatomic, assign) BOOL showEmpty;
+@property (nonatomic, assign) BOOL showSectionOne;
+@property (nonatomic, assign) BOOL showEmptySet;
 @end
 
 @implementation ScheduleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _showEmpty = NO;
     [self.view addSubview:self.tableView];
     [self setupScheduleData];
+    /*
+    UIButton * leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [leftButton setTitle:@"清空" forState:UIControlStateNormal];
+    [[leftButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+        [_explainListArray removeAllObjects];
+        _showSectionOne = NO;
+        _showEmptySet = YES;
+        self.loading = NO;
+        [self.tableView reloadData];
+    }];
+    [leftButton sizeToFit];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:leftButton];
+     */
 }
 
 - (void)setupScheduleData{
@@ -33,23 +46,23 @@
 }
 
 - (void)loadScheduleData{
-    [SVProgressHUD show];
     [[SHNetworkTool shareInstance] getCelebrityExplanationExplainListDataSuccess:^(NSArray *ExplainListArray) {
         _explainListArray = [NSMutableArray arrayWithArray:ExplainListArray];
+        _showSectionOne = YES;          // 展示标题
+        _showEmptySet = NO;              // 不展示占位
+        self.loading = NO;
         [self.tableView reloadData];
         [self.tableView.mj_header endRefreshing];
-        [SVProgressHUD dismiss];
-        self.loading = NO;
-        _showEmpty = NO;
     } failure:^(NSError *error) {
         [self.tableView.mj_header endRefreshing];
-        [SVProgressHUD dismiss];
-        _showEmpty = YES;
+        _showSectionOne = NO;          // 不展示标题
+        _showEmptySet = YES;            // 展示占位
+        self.loading = NO;
     }];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 1;
+    return _showSectionOne ? 1 : 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -75,7 +88,7 @@
 
 // 是否显示
 - (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView{
-    return _showEmpty;
+    return _showEmptySet;
 }
 
 - (void)emptyDataSet:(UIScrollView *)scrollView didTapButton:(UIButton *)button{
@@ -123,5 +136,16 @@
     }];
     return footerView;
 }
+
+#pragma mark - ========setter=======
+- (void)setShowEmptySet:(BOOL)showEmptySet{
+    if (self.showEmptySet == showEmptySet) {
+        return;
+    }
+    _showEmptySet = showEmptySet;
+    // 每次 loading 状态被修改，就刷新空白页面。
+    [self.tableView reloadEmptyDataSet];
+}
+
 
 @end

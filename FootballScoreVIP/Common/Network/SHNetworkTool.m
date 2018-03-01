@@ -31,6 +31,7 @@
         if (!tool) {
             tool = [[SHNetworkTool alloc]init];
             tool.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/plain",@"text/html",@"text/xml", nil];
+//            tool.requestSerializer.timeoutInterval = 15.0f;
         }
     });
     return tool;

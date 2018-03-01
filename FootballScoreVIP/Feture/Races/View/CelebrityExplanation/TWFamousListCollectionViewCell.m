@@ -14,7 +14,7 @@
 - (void)setModel:(TWFamousListsModel *)model{
     _model = model;
     
-    [_iconImageView sd_setImageWithURL:[NSURL URLWithString:model.authheadImlUrl] placeholderImage:[UIImage imageNamed:@"tw_rec_circle_more"]];
+    [_iconImageView sd_setImageWithURL:[NSURL URLWithString:model.authheadImlUrl] placeholderImage:[UIImage imageNamed:@"HeadSculpture"]];
     _nameLabel.text = model.authName;
 }
 

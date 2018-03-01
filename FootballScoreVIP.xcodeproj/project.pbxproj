@@ -1046,8 +1046,6 @@
 			isa = PBXGroup;
 			children = (
 				FF34E03D2045559B003D0D59 /* Controller */,
-				FF34E0402045559B003D0D59 /* Model */,
-				FF34E0412045559B003D0D59 /* View */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
@@ -1060,20 +1058,6 @@
 				FF2F63272046860100FFCAF4 /* AllCelebrity */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		FF34E0402045559B003D0D59 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FF34E0412045559B003D0D59 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		FF34E0422045559B003D0D59 /* Myprofile */ = {
@@ -1131,9 +1115,9 @@
 			isa = PBXGroup;
 			children = (
 				FF34E0522045559B003D0D59 /* MainNavigationController.h */,
-				FF34E0532045559B003D0D59 /* MainTabBarController.m */,
 				FF34E0542045559B003D0D59 /* MainNavigationController.m */,
 				FF34E0552045559B003D0D59 /* MainTabBarController.h */,
+				FF34E0532045559B003D0D59 /* MainTabBarController.m */,
 				FF34E0562045559B003D0D59 /* Base */,
 			);
 			path = Controller;
